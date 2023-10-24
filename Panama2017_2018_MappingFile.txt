@@ -1,0 +1,408 @@
+SampleID	BarcodeSequence	LinkerPrimerSequence	Plate	Column	Row	FrogID	Type	Species	Site	Origin	Elevation	Life stage	Sex	Microhabitat	Storage method	Mucosome Bd inhibition per cm2 skin	Bd GE	Description
+AH-001	AGCCTTCG	GTGTGYCAGCMGCCGCGGTAA	1	A	1	AH 001	skin	Hyloscirtus colymba	El Cope	wild	700	 adult	male	stream under rock	frozen swab in glycerol	0.741932492	0	AH-001
+AH-009	TCCATACC	GTGTGYCAGCMGCCGCGGTAA	1	A	2	AH 009	skin	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	 adult	male	leaf above stream	frozen swab in glycerol	2.601014392	0	AH-009
+AH-017	AGCCCTGC	GTGTGYCAGCMGCCGCGGTAA	1	A	3	AH 017	skin	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	 adult		stream side	frozen swab in glycerol	0.049264697	0	AH-017
+AH-022-4	CCTAACGG	GTGTGYCAGCMGCCGCGGTAA	1	A	4	AH 022-4	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1300	tadpole		small stream pool	frozen swab in glycerol		0	AH-022-4
+AH-028	CGCGCCTT	GTGTGYCAGCMGCCGCGGTAA	1	A	5	AH 028	skin	Pristimantis ridens	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol		0	AH-028
+AH-036	TATGGTAC	GTGTGYCAGCMGCCGCGGTAA	1	A	6	AH 036	skin	Sachatamia albomaculata	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf on rock	frozen swab in glycerol		0	AH-036
+AH-044	TACAATAT	GTGTGYCAGCMGCCGCGGTAA	1	A	7	AH 044	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-0.614304476	0	AH-044
+AH-052	AATTTAGG	GTGTGYCAGCMGCCGCGGTAA	1	A	8	AH 052	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream under rock	frozen swab in glycerol	0.717963277	0	AH-052
+AH-060	GACTCAAC	GTGTGYCAGCMGCCGCGGTAA	1	A	9	AH 060	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	stream under rock	frozen swab in glycerol	2.298310395	0	AH-060
+AH-067	GCCTCTAC	GTGTGYCAGCMGCCGCGGTAA	1	A	10	AH 067	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	630	 adult	male	rock	frozen swab in glycerol	1.258429657	0	AH-067
+AH-070	ACTACTGA	GTGTGYCAGCMGCCGCGGTAA	1	A	11	AH 070	skin	Espadarana prosoblepon	EVACC captive	captive		 adult		captive	frozen swab in glycerol	-1.646511549		AH-070
+AH-078	AATTCACC	GTGTGYCAGCMGCCGCGGTAA	1	A	12	AH 078	skin	Triprion spinosus	EVACC captive Tank 79 F2A52	captive		 adult		captive	frozen swab in glycerol	0.456894917		AH-078
+AH-002	CGTATAAA	GTGTGYCAGCMGCCGCGGTAA	1	B	1	AH 002	skin	Hyloscirtus colymba	El Cope	wild	700	 adult	male	stream on rock	frozen swab in glycerol	0.113578139	0	AH-002
+AH-010	ATGCTGCA	GTGTGYCAGCMGCCGCGGTAA	1	B	2	AH 010	skin	Smilisca sila	Fortuna_L_and_F	wild	1300	 adult		stream side	frozen swab in glycerol		0	AH-010
+AH-018	ACTCGCTC	GTGTGYCAGCMGCCGCGGTAA	1	B	3	AH 018	skin	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	 adult		stream side	frozen swab in glycerol	-0.50253186	0	AH-018
+AH-022-5	TTCCTTAG	GTGTGYCAGCMGCCGCGGTAA	1	B	4	AH 022-5	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1300	tadpole		small stream pool	frozen swab in glycerol		0	AH-022-5
+AH-029	CGTCCGTA	GTGTGYCAGCMGCCGCGGTAA	1	B	5	AH 029	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	1.922752794	0	AH-029
+AH-037	ACGTGAGG	GTGTGYCAGCMGCCGCGGTAA	1	B	6	AH 037	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-0.94574271	0	AH-037
+AH-045	GGTTGCCC	GTGTGYCAGCMGCCGCGGTAA	1	B	7	AH 045	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream under rock	frozen swab in glycerol	-0.294717344	0	AH-045
+AH-053	CATATAGC	GTGTGYCAGCMGCCGCGGTAA	1	B	8	AH 053	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream on rock	frozen swab in glycerol	0.745426049	0	AH-053
+AH-061	GCCTATGA	GTGTGYCAGCMGCCGCGGTAA	1	B	9	AH 061	skin	Smilisca phaeota	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	jumped on rubberboot	frozen swab in glycerol		0	AH-061
+AH-068	CAAGTGAA	GTGTGYCAGCMGCCGCGGTAA	1	B	10	AH 068	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	630	 adult	male	rock in stream	frozen swab in glycerol		0	AH-068
+AH-071	CACGTTTA	GTGTGYCAGCMGCCGCGGTAA	1	B	11	AH 071	skin	Espadarana prosoblepon	EVACC captive	captive		 adult		captive	frozen swab in glycerol	-0.3728198		AH-071
+AH-079	TAATCGGT	GTGTGYCAGCMGCCGCGGTAA	1	B	12	AH 079	skin	Triprion spinosus	EVACC captive Tank 91  F1.099.1_034.3	captive		 adult		captive	frozen swab in glycerol	0.314599774		AH-079
+AH-003	TGACTAAT	GTGTGYCAGCMGCCGCGGTAA	1	C	1	AH 003	skin	Hyloscirtus colymba	El Cope	wild	700	 adult	female	stream on rock	frozen swab in glycerol	1.568776909	0	AH-003
+AH-011	CGGGACAC	GTGTGYCAGCMGCCGCGGTAA	1	C	2	AH 011	skin	Smilisca sila	Fortuna_L_and_F	wild	1300	 adult		stream side	frozen swab in glycerol		0	AH-011
+AH-019	CTGTCTAT	GTGTGYCAGCMGCCGCGGTAA	1	C	3	AH 019	skin	Isthmohyla debilis	Fortuna_Qda. Aleman	wild	1300	 adult	male	on branch near stream	frozen swab in glycerol	0.004584367	0	AH-019
+AH-022-6	TATGCCAG	GTGTGYCAGCMGCCGCGGTAA	1	C	4	AH 022-6	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1300	tadpole		small stream pool	frozen swab in glycerol		0	AH-022-6
+AH-030	CGTTTGGA	GTGTGYCAGCMGCCGCGGTAA	1	C	5	AH 030	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	0.250326127	0	AH-030
+AH-038	AAGAACTC	GTGTGYCAGCMGCCGCGGTAA	1	C	6	AH 038	skin	Pristimantis museosus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	subadult		leaf	frozen swab in glycerol		0	AH-038
+AH-046	TGATATCG	GTGTGYCAGCMGCCGCGGTAA	1	C	7	AH 046	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream on rock	frozen swab in glycerol	0.559986467	0	AH-046
+AH-054	CGGTGACC	GTGTGYCAGCMGCCGCGGTAA	1	C	8	AH 054	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	female	"on leaf, 3m over ground"	frozen swab in glycerol	1.103948491	0	AH-054
+AH-062	AATGCGCG	GTGTGYCAGCMGCCGCGGTAA	1	C	9	AH 062	skin	Smilisca sila	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	rock in stream	frozen swab in glycerol		0	AH-062
+C-1-6	CTTGATTC	GTGTGYCAGCMGCCGCGGTAA	1	C	10	C 1-6	environmental control								frozen swab in glycerol			C-1-6
+AH-072	GAAATCTT	GTGTGYCAGCMGCCGCGGTAA	1	C	11	AH 072	skin	Espadarana prosoblepon	EVACC captive	captive		 adult		captive	frozen swab in glycerol	0.101941623		AH-072
+AH-080	GAGATACA	GTGTGYCAGCMGCCGCGGTAA	1	C	12	AH 080	skin	Triprion spinosus	EVACC captive Tank 91  F1.099.1_034.3	captive		 adult		captive	frozen swab in glycerol	0.142020775		AH-080
+AH-004	GTGGAGTC	GTGTGYCAGCMGCCGCGGTAA	1	D	1	AH 004	skin	Hyloscirtus palmeri	El Cope	wild	700	 adult		on leaf	frozen swab in glycerol	0.900706695	0	AH-004
+AH-012	ACCTTACA	GTGTGYCAGCMGCCGCGGTAA	1	D	2	AH 012	skin	Smilisca sila	Fortuna_L_and_F	wild	1300	 adult		stream side	frozen swab in glycerol		0	AH-012
+AH-020	TAATCTCG	GTGTGYCAGCMGCCGCGGTAA	1	D	3	AH 020	skin	Pristimantis cf. cruentus	Fortuna_Qda. Aleman	wild	1300	 adult	male	leaf	frozen swab in glycerol		0	AH-020
+AH-022-7	ATCTAGTG	GTGTGYCAGCMGCCGCGGTAA	1	D	4	AH 022-7	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1300	tadpole		small stream pool	frozen swab in glycerol		1618.4	AH-022-7
+AH-031	ACGCTTAA	GTGTGYCAGCMGCCGCGGTAA	1	D	5	AH 031	skin	Pristimantis museosus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	subadult		leaf	frozen swab in glycerol		0	AH-031
+AH-039	TACGGATT	GTGTGYCAGCMGCCGCGGTAA	1	D	6	AH 039	skin	Pristimantis museosus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	subadult		leaf	frozen swab in glycerol		0	AH-039
+AH-047	ATACATGC	GTGTGYCAGCMGCCGCGGTAA	1	D	7	AH 047	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	female	stream on rock	frozen swab in glycerol	0.857995701	0	AH-047
+AH-054-2	CTTAGTGC	GTGTGYCAGCMGCCGCGGTAA	1	D	8	AH 054-2	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	female	"on leaf, 3m over ground"	frozen swab in glycerol	1.112972485	0	AH-054-2
+AH-063	AATCTTGC	GTGTGYCAGCMGCCGCGGTAA	1	D	9	AH 063	skin	Smilisca sila	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	in grass on riverbank	frozen swab in glycerol		0	AH-063
+neg1	AGGATCAG	GTGTGYCAGCMGCCGCGGTAA	1	D	10	neg1	negative control											neg1
+AH-073	AATAACTA	GTGTGYCAGCMGCCGCGGTAA	1	D	11	AH 073	skin	Espadarana prosoblepon	EVACC captive	captive		 adult		captive	frozen swab in glycerol	0.751763152		AH-073
+AH-081	TATTGCAG	GTGTGYCAGCMGCCGCGGTAA	1	D	12	AH 081	skin	Triprion spinosus	EVACC captive Tank 91  F1.099.1_034.3	captive		 adult		captive	frozen swab in glycerol	0.229866678		AH-081
+AH-005	TGATGTGC	GTGTGYCAGCMGCCGCGGTAA	1	E	1	AH 005	skin	Hyloscirtus colymba	El Cope	wild	700	 adult	male	stream under rock	frozen swab in glycerol	1.447119115	0	AH-005
+AH-013	GTAGTAGA	GTGTGYCAGCMGCCGCGGTAA	1	E	2	AH 013	skin	Smilisca sila	Fortuna_L_and_F	wild	1300	 adult		stream side	frozen swab in glycerol		0	AH-013
+AH-021	AGTAAAGA	GTGTGYCAGCMGCCGCGGTAA	1	E	3	AH 021	skin	Pristimantis cf. cruentus	Fortuna_Qda. Aleman	wild	1300	 adult	female	leaf	frozen swab in glycerol		0	AH-021
+AH-023	CTCGCCCT	GTGTGYCAGCMGCCGCGGTAA	1	E	4	AH 023	skin	Pristimantis cf. cruentus	Fortuna_L_and_F	wild	1300	 adult	male	leaf	frozen swab in glycerol		0	AH-023
+AH-032	TCTCTTTC	GTGTGYCAGCMGCCGCGGTAA	1	E	5	AH 032	skin	Pristimantis cruentus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol		0	AH-032
+AH-040	ACATACTG	GTGTGYCAGCMGCCGCGGTAA	1	E	6	AH 040	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-1.103921097	0	AH-040
+AH-048	GTTGATAC	GTGTGYCAGCMGCCGCGGTAA	1	E	7	AH 048	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream under rock	frozen swab in glycerol	-0.317283872	0	AH-048
+AH-055	GTCAACGC	GTGTGYCAGCMGCCGCGGTAA	1	E	8	AH 055	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	subadult	female	stone in dry riverbed	frozen swab in glycerol		0	AH-055
+AH-064	TGAGACCC	GTGTGYCAGCMGCCGCGGTAA	1	E	9	AH 064	skin	Smilisca sila	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	rock in stream	frozen swab in glycerol		0	AH-064
+C-1-5	ACTTGGTG	GTGTGYCAGCMGCCGCGGTAA	1	E	10	C 1-5	environmental control								frozen swab in glycerol			C-1-5
+AH-074	ATTACGTA	GTGTGYCAGCMGCCGCGGTAA	1	E	11	AH 074	skin	Triprion spinosus	EVACC captive Tank 79 F2A52	captive		 adult		captive	frozen swab in glycerol	0.285750801		AH-074
+AH-082	CACGCAGT	GTGTGYCAGCMGCCGCGGTAA	1	E	12	AH 082	skin	Triprion spinosus	EVACC captive Tank 91  F1.099.1_034.3	captive		 adult		captive	frozen swab in glycerol	0.350759317		AH-082
+AH-006	TGTGCACG	GTGTGYCAGCMGCCGCGGTAA	1	F	1	AH 006	skin	Hyloscirtus colymba	El Cope	wild	700	 adult	male	stream under rock	frozen swab in glycerol	0.762309746	4306.8	AH-006
+AH-014	CCGGACAA	GTGTGYCAGCMGCCGCGGTAA	1	F	2	AH 014	skin	Smilisca sila	Fortuna_L_and_F	wild	1300	 adult		stream side	frozen swab in glycerol		0	AH-014
+AH-022-1	TTGCTGGA	GTGTGYCAGCMGCCGCGGTAA	1	F	3	AH 022-1	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1300	tadpole		small stream pool	frozen swab in glycerol		2272	AH-022-1
+AH-024	TACTAACG	GTGTGYCAGCMGCCGCGGTAA	1	F	4	AH 024	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1300	 adult	male	leaf	frozen swab in glycerol	-1.616496174	0	AH-024
+AH-033	GCGATCAC	GTGTGYCAGCMGCCGCGGTAA	1	F	5	AH 033	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-2.19288138	0	AH-033
+AH-041	CAAACGCA	GTGTGYCAGCMGCCGCGGTAA	1	F	6	AH 041	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-0.78849027	0	AH-041
+AH-049	GAAGAGGG	GTGTGYCAGCMGCCGCGGTAA	1	F	7	AH 049	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream under rock	frozen swab in glycerol	3.315059209	0	AH-049
+AH-056	TGAGTGGT	GTGTGYCAGCMGCCGCGGTAA	1	F	8	AH 056	skin	Rhaebo haematiticus	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult		leaf	frozen swab in glycerol		0	AH-056
+AH-064-2	TTACACAA	GTGTGYCAGCMGCCGCGGTAA	1	F	9	AH 064-2	skin	Smilisca sila	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	rock in stream	frozen swab in glycerol		0	AH-064-2
+C-1-16	ACGACGCA	GTGTGYCAGCMGCCGCGGTAA	1	F	10	C 1-16	environmental control								frozen swab in glycerol			C-1-16
+AH-075	TATCCAAG	GTGTGYCAGCMGCCGCGGTAA	1	F	11	AH 075	skin	Triprion spinosus	EVACC captive Tank 79 F2A52	captive		 adult		captive	frozen swab in glycerol	0.380904147		AH-075
+AH-083	AGAGCCAA	GTGTGYCAGCMGCCGCGGTAA	1	F	12	AH 083	skin	Triprion spinosus	EVACC captive Tank 91  F1.099.1_034.3	captive		 adult		captive	frozen swab in glycerol	0.185695358		AH-083
+AH-007	GGTGAGCA	GTGTGYCAGCMGCCGCGGTAA	1	G	1	AH 007	skin	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	 adult	male	leaf on rock	frozen swab in glycerol	-0.165839975	0	AH-007
+AH-015	TAAATATA	GTGTGYCAGCMGCCGCGGTAA	1	G	2	AH 015	skin	Smilisca sila	Fortuna_L_and_F	wild	1300	 adult		stream side	frozen swab in glycerol		0	AH-015
+AH-022-2	TTGCGGAC	GTGTGYCAGCMGCCGCGGTAA	1	G	3	AH 022-2	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1300	tadpole		small stream pool	frozen swab in glycerol		0	AH-022-2
+AH-025	GTCGTCCA	GTGTGYCAGCMGCCGCGGTAA	1	G	4	AH 025	skin	Smilisca phaeota	Fortuna_L_and_F	wild	1300	 adult	male	water tank	frozen swab in glycerol		0	AH-025
+AH-034	TGCACAGT	GTGTGYCAGCMGCCGCGGTAA	1	G	5	AH 034	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-1.16401744	0	AH-034
+AH-042	TTACTGTG	GTGTGYCAGCMGCCGCGGTAA	1	G	6	AH 042	skin	Sachatamia albomaculata	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol		0	AH-042
+AH-050	GGTTCATG	GTGTGYCAGCMGCCGCGGTAA	1	G	7	AH 050	skin	Craugastor crassidigitus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf on rock	frozen swab in glycerol		0	AH-050
+AH-057	TAACAATA	GTGTGYCAGCMGCCGCGGTAA	1	G	8	AH 057	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	mossy rock	frozen swab in glycerol	-0.084911366	0	AH-057
+AH-065	CTTATTAA	GTGTGYCAGCMGCCGCGGTAA	1	G	9	AH 065	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	630	 adult	male	stream bank	frozen swab in glycerol	-0.004298179	0	AH-065
+C-1-17	GCTCGAAG	GTGTGYCAGCMGCCGCGGTAA	1	G	10	C 1-17	environmental control								frozen swab in glycerol			C-1-17
+AH-076	TATTTGAT	GTGTGYCAGCMGCCGCGGTAA	1	G	11	AH 076	skin	Triprion spinosus	EVACC captive Tank 79 F2A52	captive		 adult		captive	frozen swab in glycerol	0.504658761		AH-076
+AH-084	TGTCAAAG	GTGTGYCAGCMGCCGCGGTAA	1	G	12	AH 084	skin	Agalychnis lemur	EVACC captive  M130 F1.301	captive		 adult		captive	frozen swab in glycerol	1.17056019		AH-084
+AH-008	CTATGTAT	GTGTGYCAGCMGCCGCGGTAA	1	H	1	AH 008	skin	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	 adult	male	leaf above stream	frozen swab in glycerol	0.091596671	0	AH-008
+AH-016	ACTCCCGT	GTGTGYCAGCMGCCGCGGTAA	1	H	2	AH 016	skin	Sachatamia albomaculata	Fortuna_L_and_F	wild	1300	 adult		stream side	frozen swab in glycerol		0	AH-016
+AH-022-3	CGGTATAG	GTGTGYCAGCMGCCGCGGTAA	1	H	3	AH 022-3	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1300	tadpole		small stream pool	frozen swab in glycerol		17928	AH-022-3
+AH-027	GACTCTGC	GTGTGYCAGCMGCCGCGGTAA	1	H	4	AH 027	skin	Craugastor crassidigitus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol		0	AH-027
+AH-035	GTCATGCT	GTGTGYCAGCMGCCGCGGTAA	1	H	5	AH 035	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf on rock	frozen swab in glycerol	-1.605247251	0	AH-035
+AH-043	TACCGAAG	GTGTGYCAGCMGCCGCGGTAA	1	H	6	AH 043	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-0.368239135	0	AH-043
+AH-051	TGAGTATG	GTGTGYCAGCMGCCGCGGTAA	1	H	7	AH 051	skin	Craugastor crassidigitus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	subadult		"forest, on leaf stemp"	frozen swab in glycerol		0	AH-051
+AH-058	AATGGTTC	GTGTGYCAGCMGCCGCGGTAA	1	H	8	AH 058	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	leaf	frozen swab in glycerol	0.795747924	0	AH-058
+AH-066	GAACCAGT	GTGTGYCAGCMGCCGCGGTAA	1	H	9	AH 066	skin	Craugastor crassidigitus	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	630	 adult	female	rock	frozen swab in glycerol		0	AH-066
+C-1-18	CGCACCCA	GTGTGYCAGCMGCCGCGGTAA	1	H	10	C 1-18	environmental control								frozen swab in glycerol			C-1-18
+AH-077	GTGCCATA	GTGTGYCAGCMGCCGCGGTAA	1	H	11	AH 077	skin	Triprion spinosus	EVACC captive Tank 79 F2A52	captive		 adult		captive	frozen swab in glycerol	0.615870174		AH-077
+AH-085	ACTCTTAC	GTGTGYCAGCMGCCGCGGTAA	1	H	12	AH 085	skin	Agalychnis lemur	EVACC captive  M130 F1.301	captive		 adult		captive	frozen swab in glycerol	1.40135769		AH-085
+AH-086	CTACAGGG	GTGTGYCAGCMGCCGCGGTAA	2	A	1	AH 086	skin	Agalychnis lemur	EVACC captive  M130 F1.301	captive		 adult		captive	frozen swab in glycerol	0.917164497		AH-086
+AH-095	CTTGGAGG	GTGTGYCAGCMGCCGCGGTAA	2	A	2	AH 095	skin	Gastrotheca cornuta	EVACC captive D9 F2.GC4	captive		 adult		captive	frozen swab in glycerol	1.319393805		AH-095
+AH-106	TATCATAT	GTGTGYCAGCMGCCGCGGTAA	2	A	3	AH 106	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		stream	frozen swab in glycerol	0.814376667	0	AH-106
+AH-113-2	CTATATTA	GTGTGYCAGCMGCCGCGGTAA	2	A	4	AH 113-2	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	tadpole		creek	frozen swab in glycerol		1683	AH-113-2
+AH-130	ACCGAACA	GTGTGYCAGCMGCCGCGGTAA	2	A	5	AH 130	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1400	 adult	male	tree over creek	frozen swab in glycerol	-1.225112276	0	AH-130
+AH-139	ACGGTACC	GTGTGYCAGCMGCCGCGGTAA	2	A	6	AH 139	skin	Caecilia volcani	Palo Seco_Continental devide	wild	1060	 adult		path	frozen swab in glycerol	1.429866772	0	AH-139
+AH-148	TGAGTCAT	GTGTGYCAGCMGCCGCGGTAA	2	A	7	AH 148	skin	Teratohyla spinosa	Mine Site Donosa	wild	140	 adult	male	leaf over river	frozen dry swab	1.201132321	0	AH-148
+AH-156	ACCTACTT	GTGTGYCAGCMGCCGCGGTAA	2	A	8	AH 156	skin	Lithobates warszewitschii	Mine Site Donosa	wild	140	 adult	male	river bank	frozen dry swab	0.537865448	0	AH-156
+AH-179	ACTGTGAC	GTGTGYCAGCMGCCGCGGTAA	2	A	9	AH 179	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	adult		on rock in stream	frozen dry swab	0.115186574	to be tested	AH-179
+AH-187	CTCTGAGG	GTGTGYCAGCMGCCGCGGTAA	2	A	10	AH 187	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	 adult	male	leaf near stream	frozen dry swab	1.149582416	to be tested	AH-187
+AH-195	CATGTCTT	GTGTGYCAGCMGCCGCGGTAA	2	A	11	AH 195	skin	Pristimantis cerasinus	Alto de Piedra	wild	900	juv		water pipe trail	frozen dry swab		to be tested	AH-195
+AH-203	AACAGTAA	GTGTGYCAGCMGCCGCGGTAA	2	A	12	AH 203	skin	Colosthetus panamensis	Altos de Campana	wild	740	adult		rabbit trail stream	frozen dry swab	2.189361766	to be tested	AH-203
+AH-087	GTTCATTA	GTGTGYCAGCMGCCGCGGTAA	2	B	1	AH 087	skin	Agalychnis lemur	EVACC captive  M130 F1.301	captive		 adult		captive	frozen swab in glycerol	1.880848114		AH-087
+AH-096	GTGCCGGC	GTGTGYCAGCMGCCGCGGTAA	2	B	2	AH 096	skin	Gastrotheca cornuta	EVACC captive D9 F2.GC4	captive		 adult		captive	frozen swab in glycerol	0.632496667		AH-096
+AH-107	CCTTGACC	GTGTGYCAGCMGCCGCGGTAA	2	B	3	AH 107	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	0.116179438	0	AH-107
+AH-113-3	CAAACTGC	GTGTGYCAGCMGCCGCGGTAA	2	B	4	AH 113-3	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	tadpole		creek	frozen swab in glycerol		29552	AH-113-3
+AH-132	TCGAGAGT	GTGTGYCAGCMGCCGCGGTAA	2	B	5	AH 132	skin	Hyalinobatrachium talamancae	Fortuna_L_and_F	wild	1400	 adult		bush over creek	frozen swab in glycerol	2.567908113	0	AH-132
+AH-140	CGACACGG	GTGTGYCAGCMGCCGCGGTAA	2	B	6	AH 140	skin	Bolitoglossa nigrescens	Jurutungo	wild	1970	subadult		in leaf litter	frozen swab in glycerol	3.400654591	0	AH-140
+AH-150	TCCACAGG	GTGTGYCAGCMGCCGCGGTAA	2	B	7	AH 150	skin	Diasporus citrinobapheus	Mine Site Donosa	wild	140	 adult	male	on leaf	frozen dry swab	2.851913939	2977	AH-150
+AH-157	GGAGAACG	GTGTGYCAGCMGCCGCGGTAA	2	B	8	AH 157	skin	Lithobates warszewitschii	Alto de Piedra	wild	900	adult		leaf on river bank	frozen dry swab	0.791339618	to be tested	AH-157
+AH-180	CCTACCAT	GTGTGYCAGCMGCCGCGGTAA	2	B	9	AH 180	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult	male	under rock in stream	frozen dry swab	-1.155160879	to be tested	AH-180
+AH-188	TCCGGCGG	GTGTGYCAGCMGCCGCGGTAA	2	B	10	AH 188	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	juv		water pipe trail	frozen dry swab	1.011399769	to be tested	AH-188
+AH-196	TAATCCAT	GTGTGYCAGCMGCCGCGGTAA	2	B	11	AH 196	skin	Pristimantis cerasinus	Alto de Piedra	wild	900	juv		water pipe trail	frozen dry swab		to be tested	AH-196
+AH-204	CCTCCGTC	GTGTGYCAGCMGCCGCGGTAA	2	B	12	AH 204	skin	Silverstoneia flotator	Altos de Campana	wild	740	subadult		rabbit trail stream	frozen dry swab		to be tested	AH-204
+AH-088	TTCGATGC	GTGTGYCAGCMGCCGCGGTAA	2	C	1	AH 088	skin	Agalychnis lemur	EVACC captive  M130 F1.301	captive		 adult		captive	frozen swab in glycerol	2.401453875		AH-088
+AH-098	AGAGGGTG	GTGTGYCAGCMGCCGCGGTAA	2	C	2	AH 098	skin	Gastrotheca cornuta	EVACC captive D8 F1.118.1.7	captive		 adult		captive	frozen swab in glycerol	0.703619166		AH-098
+AH-108	AGCTCTAG	GTGTGYCAGCMGCCGCGGTAA	2	C	3	AH 108	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	0.418337179	0	AH-108
+AH-114	CTGACACG	GTGTGYCAGCMGCCGCGGTAA	2	C	4	AH 114	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		in forest on leaf	frozen swab in glycerol	0.438625201	0	AH-114
+AH-133	GCTGCCCA	GTGTGYCAGCMGCCGCGGTAA	2	C	5	AH 133	skin	Hyalinobatrachium talamancae	Fortuna_L_and_F	wild	1400	 adult		bush over creek	frozen swab in glycerol	0.289329815	2174	AH-133
+AH-141	GCGTTTGC	GTGTGYCAGCMGCCGCGGTAA	2	C	6	AH 141	skin	Bolitoglossa nigrescens	Jurutungo	wild	1970	subadult		on pile of wood	frozen swab in glycerol	2.265157954	0	AH-141
+AH-151	AGATCGTG	GTGTGYCAGCMGCCGCGGTAA	2	C	7	AH 151	skin	Diasporus citrinobapheus	Mine Site Donosa	wild	140	 adult	male	on leaf	frozen dry swab	2.805043142	0	AH-151
+AH-158	AATTAATA	GTGTGYCAGCMGCCGCGGTAA	2	C	8	AH 158	skin	Sachatamia albomaculata	Alto de Piedra	wild	900	adult		leaf appr. 2.5m above stream	frozen dry swab	4.624323488	to be tested	AH-158
+AH-181	CATTTCGC	GTGTGYCAGCMGCCGCGGTAA	2	C	9	AH 181	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		leaf near stream	frozen dry swab	0.591904826	to be tested	AH-181
+AH-189	ACATGATA	GTGTGYCAGCMGCCGCGGTAA	2	C	10	AH 189	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	juv		water pipe trail	frozen dry swab	1.335659259	to be tested	AH-189
+AH-197	GCAACGAA	GTGTGYCAGCMGCCGCGGTAA	2	C	11	AH 197	skin	Pristimantis cerasinus	Alto de Piedra	wild	900	juv		water pipe trail	frozen dry swab		to be tested	AH-197
+AH-205	AGATGTCC	GTGTGYCAGCMGCCGCGGTAA	2	C	12	AH 205	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	 adult		plant near ground	frozen dry swab	1.602752306	to be tested	AH-205
+AH-089	TCGTTATT	GTGTGYCAGCMGCCGCGGTAA	2	D	1	AH 089	skin	Agalychnis lemur	EVACC captive  M130 F1.301	captive		 adult		captive	frozen swab in glycerol	2.116548784		AH-089
+AH-100	GGATACTC	GTGTGYCAGCMGCCGCGGTAA	2	D	2	AH 100	skin	Gastrotheca cornuta	EVACC captive D8 F1.118.1.7	captive		 adult		captive	frozen swab in glycerol	0.828401647		AH-100
+AH-109	AATGTTCA	GTGTGYCAGCMGCCGCGGTAA	2	D	3	AH 109	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	1.345860404	0	AH-109
+AH-115	AGCAGTGC	GTGTGYCAGCMGCCGCGGTAA	2	D	4	AH 115	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		stream	frozen swab in glycerol	0.773963304	0	AH-115
+AH-134	GCATATGC	GTGTGYCAGCMGCCGCGGTAA	2	D	5	AH 134	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1400	 adult	male	tree over creek	frozen swab in glycerol	-0.601176422	0	AH-134
+AH-142	CCGGCGAC	GTGTGYCAGCMGCCGCGGTAA	2	D	6	AH 142	skin	Isthmohyla rivularis	Jurutungo	wild	1970	 adult	male	leaf over creek	frozen swab in glycerol	1.52395499	0	AH-142
+neg2	CCTCACTA	GTGTGYCAGCMGCCGCGGTAA	2	D	7	neg2	negative control											neg2
+AH-160	CTAATCAG	GTGTGYCAGCMGCCGCGGTAA	2	D	8	AH 160	skin	Pristimantis pardalis	Alto de Piedra	wild	900	adult		water pipe trail_leaf appr. 1m above ground	frozen dry swab	0.644442539	to be tested	AH-160
+AH-182	CTACTCCA	GTGTGYCAGCMGCCGCGGTAA	2	D	9	AH 182	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	adult		leaf near stream	frozen dry swab	-1.241854533	to be tested	AH-182
+AH-190	TAAGGCAT	GTGTGYCAGCMGCCGCGGTAA	2	D	10	AH 190	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	 adult	female	water pipe trail	frozen dry swab	0.520301618	to be tested	AH-190
+AH-198	AGCGCGGC	GTGTGYCAGCMGCCGCGGTAA	2	D	11	AH 198	skin	Craugastor crassidigitus	Altos de Campana	wild	740	adult		rabbit trail	frozen dry swab	2.259359801	to be tested	AH-198
+AH-206	TAGCAGTT	GTGTGYCAGCMGCCGCGGTAA	2	D	12	AH 206	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	juv		plant near ground	frozen dry swab	1.334768804	to be tested	AH-206
+AH-090	ACTCTGTA	GTGTGYCAGCMGCCGCGGTAA	2	E	1	AH 090	skin	Agalychnis lemur	EVACC captive  M130 F1.301	captive		 adult		captive	frozen swab in glycerol	4.78993418		AH-090
+AH-101	TCATGGCC	GTGTGYCAGCMGCCGCGGTAA	2	E	2	AH 101	skin	Gastrotheca cornuta	EVACC captive D7	captive		 adult		captive	frozen swab in glycerol	0.710177485		AH-101
+AH-110	CAATCATA	GTGTGYCAGCMGCCGCGGTAA	2	E	3	AH 110	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	0.486032324	0	AH-110
+AH-116	GTTGGACG	GTGTGYCAGCMGCCGCGGTAA	2	E	4	AH 116	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		stream	frozen swab in glycerol	1.552701293	0	AH-116
+AH-135	GTCACTCC	GTGTGYCAGCMGCCGCGGTAA	2	E	5	AH 135	skin	Sachatamia albomaculata	Fortuna_L_and_F	wild	1300	 adult		plnt growing on rock in stream	frozen swab in glycerol	4.318533299	0	AH-135
+AH-143	CGTTCTGG	GTGTGYCAGCMGCCGCGGTAA	2	E	6	AH 143	skin	Isthmohyla rivularis	Jurutungo	wild	1970	 adult	male	leaf	frozen swab in glycerol	1.891545629	0	AH-143
+AH-152	TAGTTCGG	GTGTGYCAGCMGCCGCGGTAA	2	E	7	AH 152	skin	Sachatamia ilex	Mine Site Donosa	wild	140	 adult		on leaf	frozen dry swab	3.137095921	0	AH-152
+AH-161	TTAATGGA	GTGTGYCAGCMGCCGCGGTAA	2	E	8	AH 161	skin	Pristimantis pardalis	Alto de Piedra	wild	900	adult		water pipe trail_leaf appr. 1.5m above ground	frozen dry swab	0.943024957	to be tested	AH-161
+AH-183	TCAAGTCC	GTGTGYCAGCMGCCGCGGTAA	2	E	9	AH 183	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	adult		leaf near stream	frozen dry swab	0.489661026	to be tested	AH-183
+AH-191	CACACAAA	GTGTGYCAGCMGCCGCGGTAA	2	E	10	AH 191	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	 adult	female	water pipe trail	frozen dry swab	-0.144593539	to be tested	AH-191
+AH-199	GTCAGGTG	GTGTGYCAGCMGCCGCGGTAA	2	E	11	AH 199	skin	Colosthetus panamensis	Altos de Campana	wild	740	adult		rabbit trail stream	frozen dry swab	-0.009286281	to be tested	AH-199
+AH-207	TTGAACAA	GTGTGYCAGCMGCCGCGGTAA	2	E	12	AH 207	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	juv		plant near ground	frozen dry swab	1.249037457	to be tested	AH-207
+AH-091	ATATGTTC	GTGTGYCAGCMGCCGCGGTAA	2	F	1	AH 091	skin	Agalychnis lemur	EVACC captive  M130 F1.301	captive		 adult		captive	frozen swab in glycerol	2.843712684		AH-091
+AH-103	ATGTGCTG	GTGTGYCAGCMGCCGCGGTAA	2	F	2	AH 103	skin	Colosthetus pratti	Alto de Piedra	wild	900	 adult	male	"forest floor, leaf litter"	frozen swab in glycerol	0.196957623	0	AH-103
+AH-111	CCGATAAA	GTGTGYCAGCMGCCGCGGTAA	2	F	3	AH 111	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	0.819623407	385.2	AH-111
+AH-117	CAGGAACC	GTGTGYCAGCMGCCGCGGTAA	2	F	4	AH 117	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		stream	frozen swab in glycerol	1.246964559	0	AH-117
+AH-136	GCATAAAC	GTGTGYCAGCMGCCGCGGTAA	2	F	5	AH 136	skin	Isthmohyla debilis	Fortuna_Qda. Aleman	wild	1230	 adult		bush near stream	frozen swab in glycerol	0.587829032	0	AH-136
+AH-144	ATCGTAGT	GTGTGYCAGCMGCCGCGGTAA	2	F	6	AH 144	skin	Isthmohyla rivularis	Mount Totumas	wild	1900	 adult	male	bush at creek	frozen swab in glycerol	1.836545768	0	AH-144
+AH-153	ACTAAAGC	GTGTGYCAGCMGCCGCGGTAA	2	F	7	AH 153	skin	Teratohyla spinosa	Mine Site Donosa	wild	140	 adult		on leaf	frozen dry swab	-0.60246424	0	AH-153
+AH-162	TAGGAACT	GTGTGYCAGCMGCCGCGGTAA	2	F	8	AH 162	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	adult		water pipe trail_hopping on ground	frozen dry swab	0.552196566	to be tested	AH-162
+AH-184	GTCCGTCC	GTGTGYCAGCMGCCGCGGTAA	2	F	9	AH 184	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	adult		leaf near stream	frozen dry swab	1.23747723	to be tested	AH-184
+AH-192	CGAGGCGA	GTGTGYCAGCMGCCGCGGTAA	2	F	10	AH 192	skin	Pristimantis cerasinus	Alto de Piedra	wild	900	 adult		stream	frozen dry swab	1.928080716	to be tested	AH-192
+AH-200	TTCCAATA	GTGTGYCAGCMGCCGCGGTAA	2	F	11	AH 200	skin	Colosthetus panamensis	Altos de Campana	wild	740	adult		rabbit trail stream	frozen dry swab	2.055359973	to be tested	AH-200
+AH-208	AACTCAAT	GTGTGYCAGCMGCCGCGGTAA	2	F	12	AH 208	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	juv		plant near ground	frozen dry swab	-0.03700246	to be tested	AH-208
+AH-092	TCAGACCA	GTGTGYCAGCMGCCGCGGTAA	2	G	1	AH 092	skin	Agalychnis lemur	EVACC captive  M130 F1.301	captive		 adult		captive	frozen swab in glycerol	2.667674864		AH-092
+AH-104	CCACGAGC	GTGTGYCAGCMGCCGCGGTAA	2	G	2	AH 104	skin	Colosthetus pratti	Alto de Piedra	wild	900	 adult	male	"forest floor, leaf litter"	frozen swab in glycerol	-0.347006031	0	AH-104
+AH-112	GCGTGCCC	GTGTGYCAGCMGCCGCGGTAA	2	G	3	AH 112	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	1.38014494	0	AH-112
+AH-128	CAAAGGAG	GTGTGYCAGCMGCCGCGGTAA	2	G	4	AH 128	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1400	 adult	female	tree over creek	frozen swab in glycerol	-1.092948	0	AH-128
+AH-137	TGCGGCGT	GTGTGYCAGCMGCCGCGGTAA	2	G	5	AH 137	skin	Caecilia volcani	Palo Seco_Continental devide	wild	1060	 adult		path	frozen swab in glycerol	2.096008285	0	AH-137
+AH-145	CGCTGTGG	GTGTGYCAGCMGCCGCGGTAA	2	G	6	AH 145	skin	Espadarana prosoblepon	Mount Totumas	wild	1900	 adult	male	bush at creek	frozen swab in glycerol	-0.807621087	338	AH-145
+AH-154	CTTGCTCA	GTGTGYCAGCMGCCGCGGTAA	2	G	7	AH 154	skin	Teratohyla spinosa	Mine Site Donosa	wild	140	 adult		on leaf	frozen dry swab	0.211058993	0	AH-154
+AH-176	ACGACAAC	GTGTGYCAGCMGCCGCGGTAA	2	G	8	AH 176	skin	Diasporus citrinobapheus	Alto de Piedra	wild	900	adult		trail vegetation	frozen dry swab	1.209541792	to be tested	AH-176
+AH-185	CTAGCGTG	GTGTGYCAGCMGCCGCGGTAA	2	G	9	AH 185	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	adult		leaf near stream	frozen dry swab	0.995536309	to be tested	AH-185
+AH-193	TAGTCTAA	GTGTGYCAGCMGCCGCGGTAA	2	G	10	AH 193	skin	Pristimantis cruentus	Alto de Piedra	wild	900	 adult		water pipe trail	frozen dry swab	0.855476864	to be tested	AH-193
+AH-201	GTTTGAAA	GTGTGYCAGCMGCCGCGGTAA	2	G	11	AH 201	skin	Colosthetus panamensis	Altos de Campana	wild	740	adult		rabbit trail stream	frozen dry swab	2.341087222	to be tested	AH-201
+AH-209	ACCTCAGT	GTGTGYCAGCMGCCGCGGTAA	2	G	12	AH 209	skin	Bolitoglossa minutula	Mount Totumas	wild	1900	 adult		plant near ground	frozen dry swab	-5.81444263	ambiguous	AH-209
+AH-093	TCATTAGC	GTGTGYCAGCMGCCGCGGTAA	2	H	1	AH 093	skin	Gastrotheca cornuta	EVACC captive D9 F2.GC4	captive		 adult		captive	frozen swab in glycerol	1.689044764		AH-093
+AH-105	CGCCGTAC	GTGTGYCAGCMGCCGCGGTAA	2	H	2	AH 105	skin	Diasporus citrinobapheus	Alto de Piedra	wild	900	 adult		grass	frozen swab in glycerol	3.696180746	0	AH-105
+AH-113-1	TAAACCTG	GTGTGYCAGCMGCCGCGGTAA	2	H	3	AH 113-1	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	tadpole		creek	frozen swab in glycerol		841	AH-113-1
+AH-129	CCAACCCA	GTGTGYCAGCMGCCGCGGTAA	2	H	4	AH 129	skin	Duellmanohyla uranochroa	Fortuna_L_and_F	wild	1400	 adult	male	tree over creek	frozen swab in glycerol	-0.276501759	0	AH-129
+AH-138	TTAAGTTA	GTGTGYCAGCMGCCGCGGTAA	2	H	5	AH 138	skin	Diasporus citrinobapheus	Palo Seco_Continental devide	wild	1060	 adult		bushes	frozen swab in glycerol	2.700138747	0	AH-138
+AH-146	AGCCGCGG	GTGTGYCAGCMGCCGCGGTAA	2	H	6	AH 146	skin	Espadarana prosoblepon	Mount Totumas	wild	1900	 adult	male	bush at creek	frozen swab in glycerol	3.472062493	0	AH-146
+AH-155	GGTAGTTC	GTGTGYCAGCMGCCGCGGTAA	2	H	7	AH 155	skin	Lithobates warszewitschii	Mine Site Donosa	wild	140	 adult	male	river bank	frozen dry swab	1.352722838	96.84	AH-155
+AH-177	CGATGAAT	GTGTGYCAGCMGCCGCGGTAA	2	H	8	AH 177	skin	Hyloscirtus palmeri	Alto de Piedra	wild	900	 adult	male	stream vegetation	frozen dry swab	1.45990626	to be tested	AH-177
+AH-186	GTTCTAAG	GTGTGYCAGCMGCCGCGGTAA	2	H	9	AH 186	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	adult		leaf near stream	frozen dry swab	1.3652505	to be tested	AH-186
+AH-194	ATGACTAA	GTGTGYCAGCMGCCGCGGTAA	2	H	10	AH 194	skin	Pristimantis pardalis	Alto de Piedra	wild	900	 adult		water pipe trail	frozen dry swab	1.388794585	to be tested	AH-194
+AH-202	TACAGCGC	GTGTGYCAGCMGCCGCGGTAA	2	H	11	AH 202	skin	Colosthetus panamensis	Altos de Campana	wild	740	adult		rabbit trail stream	frozen dry swab	1.746144977	to be tested	AH-202
+AH-210	TGACAGAA	GTGTGYCAGCMGCCGCGGTAA	2	H	12	AH 210	skin	Bolitoglossa minutula	Mount Totumas	wild	1900	 adult		plant near ground	frozen dry swab	-1.658424711	0	AH-210
+AH-211	CCTCGCAT	GTGTGYCAGCMGCCGCGGTAA	3	A	1	AH 211	skin	Smilisca sila	RF Montuoso ANAM Station	wild	570	 adult	male	in stream	frozen dry swab	3.844348324	0	AH-211
+AH-226	GGCGTAAC	GTGTGYCAGCMGCCGCGGTAA	3	A	2	AH 226	skin	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	 adult	male	stream bank	frozen dry swab	-1.165621023	to be tested	AH-226
+UK-004	GCGAGGAA	GTGTGYCAGCMGCCGCGGTAA	3	A	3	UK 004	skin	unknown sample										UK-004
+AH-241	CAAATTCG	GTGTGYCAGCMGCCGCGGTAA	3	A	4	AH 241	skin	Diasporus hylaeformis	Mount Totumas	wild	1900	 adult	male	on leaf	frozen dry swab	0.584557638	0	AH-241
+AH-249	TTGTGTCT	GTGTGYCAGCMGCCGCGGTAA	3	A	5	AH 249	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	 adult	male	on fern leaf	frozen dry swab	2.045790934	to be tested	AH-249
+AH-257	CAATGTAG	GTGTGYCAGCMGCCGCGGTAA	3	A	6	AH 257	skin	Espadarana prosoblepon	Totumas_Qda. Catalina	wild	1530	 adult	male	on leaf	frozen dry swab	1.026338485	ambiguous	AH-257
+AH-265	AACCACTA	GTGTGYCAGCMGCCGCGGTAA	3	A	7	AH 265	skin	"Bolitoglossa ""gomezi"""	Totumas_Qda. Catalina	wild	1530	 adult		on leaf	frozen dry swab	4.629036083	ambiguous	AH-265
+AH-272	AACTTTCA	GTGTGYCAGCMGCCGCGGTAA	3	A	8	AH 272	skin	Espadarana prosoblepon	Rambala_Qda Gloria	wild	75	 adult	male	on leaf	frozen dry swab	0.671989115	ambiguous	AH-272
+AH-280	CCAGGACA	GTGTGYCAGCMGCCGCGGTAA	3	A	9	AH 280	skin	Espadarana prosoblepon	Fortuna_Shadow Falls	wild	1400	 adult	male	on leaf	frozen dry swab	2.555414516	to be tested	AH-280
+AH-288	GCGCGGCG	GTGTGYCAGCMGCCGCGGTAA	3	A	10	AH 288	skin	Duellmanohyla uranochroa	Fortuna_Shadow Falls	wild	1400	tadpole		in stream pool	frozen dry swab	-2.281275675	to be tested	AH-288
+AH-296	GTCGCTTG	GTGTGYCAGCMGCCGCGGTAA	3	A	11	AH 296	skin	Pristimantis gaigae	Altos de Campana	wild	700	 adult			frozen dry swab		to be tested	AH-296
+AH-304	TCCGCCTA	GTGTGYCAGCMGCCGCGGTAA	3	A	12	AH 304	skin	Colosthetus panamensis	Altos de Campana	wild	700	 adult			frozen dry swab		to be tested	AH-304
+AH-212	CGCGCAAG	GTGTGYCAGCMGCCGCGGTAA	3	B	1	AH 212	skin	Smilisca sila	RF Montuoso ANAM Station	wild	570	 adult	male	in stream	frozen dry swab	2.595027353	to be tested	AH-212
+AH-227	AATACAGA	GTGTGYCAGCMGCCGCGGTAA	3	B	2	AH 227	skin	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	 adult	male	stream bank	frozen dry swab	0.128329726	to be tested	AH-227
+AH-233	GGACAAGT	GTGTGYCAGCMGCCGCGGTAA	3	B	3	AH 233	skin	Bolitoglossa nigrescens	Mount Totumas	wild	1900	subadult		on trunk	frozen dry swab	-1.382909959	0	AH-233
+AH-242	TACGGTCT	GTGTGYCAGCMGCCGCGGTAA	3	B	4	AH 242	skin	Diasporus hylaeformis	Mount Totumas	wild	1900	 adult	male	on leaf	frozen dry swab	0.464889529	0	AH-242
+AH-250	TTCAGTTC	GTGTGYCAGCMGCCGCGGTAA	3	B	5	AH 250	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	 adult	male	on fern leaf	frozen dry swab	1.503765259	to be tested	AH-250
+AH-258	CCGCGTCT	GTGTGYCAGCMGCCGCGGTAA	3	B	6	AH 258	skin	Espadarana prosoblepon	Totumas_Qda. Catalina	wild	1530	 adult	male	on leaf	frozen dry swab	1.051772401	14213.65715	AH-258
+AH-266	CCGAGGTA	GTGTGYCAGCMGCCGCGGTAA	3	B	7	AH 266	skin	Espadarana prosoblepon	Rambala_Qda Gloria	wild	75	 adult	male	on leaf	frozen dry swab	3.558936496	ambiguous	AH-266
+AH-273	AGATTCGC	GTGTGYCAGCMGCCGCGGTAA	3	B	8	AH 273	skin	Espadarana prosoblepon	Rambala_Qda Gloria	wild	75	 adult	female	on leaf	frozen dry swab	-0.125716502	0	AH-273
+AH-281	TTGCCGCT	GTGTGYCAGCMGCCGCGGTAA	3	B	9	AH 281	skin	Espadarana prosoblepon	Fortuna_Shadow Falls	wild	1400	 adult	male	on leaf	frozen dry swab	1.322914449	to be tested	AH-281
+AH-289	AGACTTCT	GTGTGYCAGCMGCCGCGGTAA	3	B	10	AH 289	skin	Espadarana prosoblepon	Fortuna_Qda. Aleman	wild	1250	 adult	male	on leaf	frozen dry swab	-0.704166833	to be tested	AH-289
+AH-297	TCTTGCGG	GTGTGYCAGCMGCCGCGGTAA	3	B	11	AH 297	skin	Pristimantis gaigae	Altos de Campana	wild	700	 adult			frozen dry swab		to be tested	AH-297
+Montuoso-001	CTATCTCC	GTGTGYCAGCMGCCGCGGTAA	3	B	12	Montuoso 001	skin	Smilisca sila	RF Montuoso ANAM Station	wild	570	 adult		river 	frozen dry swab		to be tested	Montuoso-001
+AH-217	AAGGCGCT	GTGTGYCAGCMGCCGCGGTAA	3	C	1	AH 217	skin	Smilisca sila	RF Montuoso ANAM Station	wild	570	 adult	male	in stream	frozen dry swab	1.94636653	to be tested	AH-217
+AH-228	GATCTAAT	GTGTGYCAGCMGCCGCGGTAA	3	C	2	AH 228	skin	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	 adult	male	stream bank	frozen dry swab	1.579145746	to be tested	AH-228
+AH-234	CTGATGTA	GTGTGYCAGCMGCCGCGGTAA	3	C	3	AH 234	skin	Bolitoglossa nigrescens	Mount Totumas	wild	1900	subadult			frozen dry swab	0.021963138	0	AH-234
+AH-243	ACGTATTC	GTGTGYCAGCMGCCGCGGTAA	3	C	4	AH 243	skin	Diasporus hylaeformis	Mount Totumas	wild	1900	 adult	male	on leaf	frozen dry swab	1.638091138	0	AH-243
+AH-251	GACGTTAA	GTGTGYCAGCMGCCGCGGTAA	3	C	5	AH 251	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	 adult	male	on fern leaf	frozen dry swab	1.389647127	0	AH-251
+AH-259	TGGTGGAG	GTGTGYCAGCMGCCGCGGTAA	3	C	6	AH 259	skin	Espadarana prosoblepon	Totumas_Qda. Catalina	wild	1530	 adult	male	on leaf	frozen dry swab	1.754247318	0	AH-259
+AH-267	TTAACAAG	GTGTGYCAGCMGCCGCGGTAA	3	C	7	AH 267	skin	Espadarana prosoblepon	Rambala_Qda Gloria	wild	75	 adult	male	on leaf	frozen dry swab	1.481299415	0	AH-267
+AH-274	AACCGCAT	GTGTGYCAGCMGCCGCGGTAA	3	C	8	AH 274	skin	Teratohyla spinosa	Rambala_Qda Gloria	wild	75	 adult	male	on leaf	frozen dry swab	0.44305811	0	AH-274
+AH-282	CCACAACG	GTGTGYCAGCMGCCGCGGTAA	3	C	9	AH 282	skin	Espadarana prosoblepon	Fortuna_Shadow Falls	wild	1400	 adult	male	on leaf	frozen dry swab	2.205143733	to be tested	AH-282
+AH-290	AGTTCTCA	GTGTGYCAGCMGCCGCGGTAA	3	C	10	AH 290	skin	Espadarana prosoblepon	Fortuna_Qda. Aleman	wild	1250	 adult	male	on leaf	frozen dry swab	-0.616930818	to be tested	AH-290
+AH-298	GAGCCATC	GTGTGYCAGCMGCCGCGGTAA	3	C	11	AH 298	skin	Pristimantis gaigae	Altos de Campana	wild	700	subadult			frozen dry swab		to be tested	AH-298
+Montuoso-013	GATATACC	GTGTGYCAGCMGCCGCGGTAA	3	C	12	Montuoso 013	skin	Smilisca sila	RF Montuoso ANAM Station	wild	570	 adult		river 	frozen dry swab		to be tested	Montuoso-013
+AH-218	CGCAATGA	GTGTGYCAGCMGCCGCGGTAA	3	D	1	AH 218	skin	Smilisca sila	RF Montuoso ANAM Station	wild	570	 adult	male	in stream	frozen dry swab	2.528001536	to be tested	AH-218
+AH-229	CCGCAGCC	GTGTGYCAGCMGCCGCGGTAA	3	D	2	AH 229	skin	Craugastor podiciferus	Fortuna_L_and_F	wild	1300	 adult	male	stream bank	frozen dry swab	-1.111874653	to be tested	AH-229
+AH-235	TGGAGCCT	GTGTGYCAGCMGCCGCGGTAA	3	D	3	AH 235	skin	Isthmohyla rivularis	Mount Totumas	wild	1900	 adult	male	in river bank vegetation	frozen dry swab	2.777912723	to be tested	AH-235
+AH-244	TTACTTAT	GTGTGYCAGCMGCCGCGGTAA	3	D	4	AH 244	skin	Diasporus hylaeformis	Mount Totumas	wild	1900	 adult	male	on leaf	frozen dry swab	3.385962476	0	AH-244
+AH-252	ATGGGACC	GTGTGYCAGCMGCCGCGGTAA	3	D	5	AH 252	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	 adult	male	on fern leaf	frozen dry swab	0.62294313	0	AH-252
+AH-260	TCCGATAA	GTGTGYCAGCMGCCGCGGTAA	3	D	6	AH 260	skin	Espadarana prosoblepon	Totumas_Qda. Catalina	wild	1530	 adult	male	on leaf	frozen dry swab	1.253223786	27337.67473	AH-260
+neg3	AAGTCACA	GTGTGYCAGCMGCCGCGGTAA	3	D	7	neg3	negative control											neg3
+AH-275	GAAGTAGC	GTGTGYCAGCMGCCGCGGTAA	3	D	8	AH 275	skin	Teratohyla spinosa	Rambala_Qda Gloria	wild	75	 adult	male	on leaf	frozen dry swab	1.230774197	141709.4654	AH-275
+AH-283	CACCATCT	GTGTGYCAGCMGCCGCGGTAA	3	D	9	AH 283	skin	Espadarana prosoblepon	Fortuna_Shadow Falls	wild	1400	 adult	male	on leaf	frozen dry swab	3.83457261	to be tested	AH-283
+AH-291	GTGTCGAG	GTGTGYCAGCMGCCGCGGTAA	3	D	10	AH 291	skin	Espadarana prosoblepon	Fortuna_Qda. Aleman	wild	1250	 adult	male	on leaf	frozen dry swab	0.309162808	to be tested	AH-291
+AH-299	TTCCACAC	GTGTGYCAGCMGCCGCGGTAA	3	D	11	AH 299	skin	Pristimantis gaigae	Altos de Campana	wild	700	subadult			frozen dry swab		to be tested	AH-299
+Montuoso-014	AGAATCCA	GTGTGYCAGCMGCCGCGGTAA	3	D	12	Montuoso 014	skin	Smilisca sila	RF Montuoso ANAM Station	wild	570	 adult		river 	frozen dry swab		to be tested	Montuoso-014
+AH-222	ACGGCGTT	GTGTGYCAGCMGCCGCGGTAA	3	E	1	AH 222	skin	Sachatamia albomuculata	Fortuna_L_and_F	wild	1300	 adult	male	stream bank	frozen dry swab	-1.468240027	to be tested	AH-222
+AH-230	GAACCGTG	GTGTGYCAGCMGCCGCGGTAA	3	E	2	AH 230	skin	Bolitoglossa minutula	Mount Totumas	wild	1900	 adult		on leaf	frozen dry swab	-0.584569387	0	AH-230
+AH-236	ACGTGCCT	GTGTGYCAGCMGCCGCGGTAA	3	E	3	AH 236	skin	Espadarana prosoblepon	Mount Totumas	wild	1900	 adult	male	"in river bank vegetation, amplexus with AH 237"	frozen dry swab	2.95677968	0	AH-236
+AH-245	AGTTGTAG	GTGTGYCAGCMGCCGCGGTAA	3	E	4	AH 245	skin	Diasporus hylaeformis	Mount Totumas	wild	1900	 adult	male	on leaf	frozen dry swab	2.596639388	0	AH-245
+AH-253	AGGGACTT	GTGTGYCAGCMGCCGCGGTAA	3	E	5	AH 253	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	 adult	male	on fern leaf	frozen dry swab	-0.47397455	0	AH-253
+AH-261	CGGCCAGA	GTGTGYCAGCMGCCGCGGTAA	3	E	6	AH 261	skin	Espadarana prosoblepon	Totumas_Qda. Catalina	wild	1530	 adult	male	on leaf	frozen dry swab	1.485992998	ambiguous	AH-261
+AH-268	TGGCAGCG	GTGTGYCAGCMGCCGCGGTAA	3	E	7	AH 268	skin	Espadarana prosoblepon	Rambala_Qda Gloria	wild	75	 adult	male	on leaf	frozen dry swab	2.562176769	0	AH-268
+AH-276	GTGAATGT	GTGTGYCAGCMGCCGCGGTAA	3	E	8	AH 276	skin	Teratohyla spinosa	Rambala_Qda Gloria	wild	75	 adult	male	on leaf	frozen dry swab	0.752031668	0	AH-276
+AH-284	TATGTTGA	GTGTGYCAGCMGCCGCGGTAA	3	E	9	AH 284	skin	Hyalinobatrachium talamancae	Fortuna_Shadow Falls	wild	1400	 adult	male	on leaf	frozen dry swab	-3.185509169	to be tested	AH-284
+AH-292	AGTGTTTC	GTGTGYCAGCMGCCGCGGTAA	3	E	10	AH 292	skin	Espadarana prosoblepon	Fortuna_Qda. Aleman	wild	1250	 adult	male	on leaf	frozen dry swab	1.629077118	to be tested	AH-292
+AH-300	ATTTCCGC	GTGTGYCAGCMGCCGCGGTAA	3	E	11	AH 300	skin	Pristimantis gaigae	Altos de Campana	wild	700	subadult			frozen dry swab		to be tested	AH-300
+Montuoso-032	CAAACCTA	GTGTGYCAGCMGCCGCGGTAA	3	E	12	Montuoso 032	skin	Smilisca sila	RF Montuoso ANAM Station	wild	570	 adult		river 	frozen dry swab		to be tested	Montuoso-032
+AH-223	CATTTGAC	GTGTGYCAGCMGCCGCGGTAA	3	F	1	AH 223	skin	Sachatamia albomaculata	Fortuna_L_and_F	wild	1300	 adult	male	stream bank	frozen dry swab	-1.07848915	to be tested	AH-223
+AH-231	ACTAAGTA	GTGTGYCAGCMGCCGCGGTAA	3	F	2	AH 231	skin	"Bolitoglossa ""gomezi"""	Mount Totumas	wild	1900	 adult		on leaf	frozen dry swab	-1.078279073	0	AH-231
+AH-237	CACCCTTG	GTGTGYCAGCMGCCGCGGTAA	3	F	3	AH 237	skin	Espadarana prosoblepon	Mount Totumas	wild	1900	 adult	female	"in river bank vegetation, amplexus with AH 236"	frozen dry swab	2.951799211	8151.613998	AH-237
+AH-246	GATGCCTA	GTGTGYCAGCMGCCGCGGTAA	3	F	4	AH 246	skin	Diasporus hylaeformis	Mount Totumas	wild	1900	 adult	male	on leaf	frozen dry swab	3.479818	4331.057912	AH-246
+AH-254	GTACGTCA	GTGTGYCAGCMGCCGCGGTAA	3	F	5	AH 254	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	 adult	male	on fern leaf	frozen dry swab	0.394045728	0	AH-254
+AH-262	TCGCTACA	GTGTGYCAGCMGCCGCGGTAA	3	F	6	AH 262	skin	Espadarana prosoblepon	Totumas_Qda. Catalina	wild	1530	 adult	male	on leaf	frozen dry swab	0.791829533	0	AH-262
+AH-269	CCGGCTTA	GTGTGYCAGCMGCCGCGGTAA	3	F	7	AH 269	skin	Espadarana prosoblepon	Rambala_Qda Gloria	wild	75	 adult	male	on leaf	frozen dry swab	1.161527498	10204.81024	AH-269
+AH-277	ATAGTCCT	GTGTGYCAGCMGCCGCGGTAA	3	F	8	AH 277	skin	Teratohyla spinosa	Rambala_Qda Gloria	wild	75	 adult	male	on leaf	frozen dry swab	0.989264473	0	AH-277
+AH-285	TCGAGCCG	GTGTGYCAGCMGCCGCGGTAA	3	F	9	AH 285	skin	Hyalinobatrachium talamancae	Fortuna_Shadow Falls	wild	1400	 adult	male	on leaf	frozen dry swab	1.195016186	to be tested	AH-285
+AH-293	AGTGCAGG	GTGTGYCAGCMGCCGCGGTAA	3	F	10	AH 293	skin	Pristimantis aff. cruentus	Fortuna_Qda. Aleman	wild	1250	 adult	male	on leaf	frozen dry swab		to be tested	AH-293
+AH-301	GTACTCGA	GTGTGYCAGCMGCCGCGGTAA	3	F	11	AH 301	skin	Pristimantis gaigae	Altos de Campana	wild	700	subadult			frozen dry swab		to be tested	AH-301
+Montuoso-036	ATAGGAAT	GTGTGYCAGCMGCCGCGGTAA	3	F	12	Montuoso 036	skin	Smilisca sila	RF Montuoso ANAM Station	wild	570	 adult		river 	frozen dry swab		to be tested	Montuoso-036
+AH-224	GCTGCGTA	GTGTGYCAGCMGCCGCGGTAA	3	G	1	AH 224	skin	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	 adult	male	stream bank	frozen dry swab	0.430127636	to be tested	AH-224
+UK-002	CTCAGCGG	GTGTGYCAGCMGCCGCGGTAA	3	G	2	UK 002	skin	unknown sample										UK-002
+AH-239	ATGCCTCG	GTGTGYCAGCMGCCGCGGTAA	3	G	3	AH 239	skin	Diasporus hylaeformis	Mount Totumas	wild	1900	adult	male	on leaf	frozen dry swab	1.596652272	to be tested	AH-239
+AH-247	TTAGTTTG	GTGTGYCAGCMGCCGCGGTAA	3	G	4	AH 247	skin	Diasporus hylaeformis	Mount Totumas	wild	1900	 adult	male	on leaf	frozen dry swab	2.851839131	to be tested	AH-247
+AH-255	CCGGCCGC	GTGTGYCAGCMGCCGCGGTAA	3	G	5	AH 255	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	 adult	male	on fern leaf	frozen dry swab	-0.277365898	6269.901785	AH-255
+AH-263	ATTATGAT	GTGTGYCAGCMGCCGCGGTAA	3	G	6	AH 263	skin	Espadarana prosoblepon	Totumas_Qda. Catalina	wild	1530	 adult	male	on leaf	frozen dry swab	1.110226337	1557019625	AH-263
+AH-270	CGAATACT	GTGTGYCAGCMGCCGCGGTAA	3	G	7	AH 270	skin	Espadarana prosoblepon	Rambala_Qda Gloria	wild	75	 adult	male	on leaf	frozen dry swab	0.765463831	0	AH-270
+AH-278	TCTTATAA	GTGTGYCAGCMGCCGCGGTAA	3	G	8	AH 278	skin	Espadarana prosoblepon	Fortuna_Shadow Falls	wild	1400	 adult	male	on leaf	frozen dry swab	-0.204295343	to be tested	AH-278
+AH-286	TAAGGTCG	GTGTGYCAGCMGCCGCGGTAA	3	G	9	AH 286	skin	Duellmanohyla uranochroa	Fortuna_Shadow Falls	wild	1400	tadpole		in stream pool	frozen dry swab	-3.028297786	to be tested	AH-286
+AH-294	GTTGCTGA	GTGTGYCAGCMGCCGCGGTAA	3	G	10	AH 294	skin	Pristimantis aff. cruentus	Fortuna_Qda. Aleman	wild	1250	 adult	female	on leaf	frozen dry swab		to be tested	AH-294
+AH-302	ACACCGCA	GTGTGYCAGCMGCCGCGGTAA	3	G	11	AH 302	skin	Colosthetus panamensis	Altos de Campana	wild	700	 adult			frozen dry swab		to be tested	AH-302
+Montuoso-039	CACAACCA	GTGTGYCAGCMGCCGCGGTAA	3	G	12	Montuoso 039	skin	Smilisca sila	RF Montuoso ANAM Station	wild	570	 adult		river 	frozen dry swab		to be tested	Montuoso-039
+AH-225	GAGAAGCT	GTGTGYCAGCMGCCGCGGTAA	3	H	1	AH 225	skin	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	 adult	male	stream bank	frozen dry swab	-0.377958257	to be tested	AH-225
+UK-003	GTTAACTT	GTGTGYCAGCMGCCGCGGTAA	3	H	2	UK 003	skin	unknown sample										UK-003
+AH-240	GTTGTTCT	GTGTGYCAGCMGCCGCGGTAA	3	H	3	AH 240	skin	Diasporus hylaeformis	Mount Totumas	wild	1900	 adult	male	on leaf	frozen dry swab	0.465666433	0	AH-240
+AH-248	AGGGTGAC	GTGTGYCAGCMGCCGCGGTAA	3	H	4	AH 248	skin	Craugastor crassidigitus	Mount Totumas	wild	1900	 adult	male	on fern leaf	frozen dry swab	4.42078212	to be tested	AH-248
+AH-256	GCCGCCAG	GTGTGYCAGCMGCCGCGGTAA	3	H	5	AH 256	skin	Isthmohyla rivularis	Mount Totumas	wild	1900	 adult	male	on leaf near river bank	frozen dry swab	1.938722393	0	AH-256
+AH-264	GCCACCGC	GTGTGYCAGCMGCCGCGGTAA	3	H	6	AH 264	skin	Espadarana prosoblepon	Totumas_Qda. Catalina	wild	1530	 adult	male	on leaf	frozen dry swab	0.709821079	0	AH-264
+AH-271	ACACACCC	GTGTGYCAGCMGCCGCGGTAA	3	H	7	AH 271	skin	Espadarana prosoblepon	Rambala_Qda Gloria	wild	75	 adult	male	on leaf	frozen dry swab	0.380168799	0	AH-271
+AH-279	TATAGGCT	GTGTGYCAGCMGCCGCGGTAA	3	H	8	AH 279	skin	Espadarana prosoblepon	Fortuna_Shadow Falls	wild	1400	 adult	male	on leaf	frozen dry swab	1.368980998	to be tested	AH-279
+AH-287	ATAATTGC	GTGTGYCAGCMGCCGCGGTAA	3	H	9	AH 287	skin	Duellmanohyla uranochroa	Fortuna_Shadow Falls	wild	1400	tadpole		in stream pool	frozen dry swab	-2.495730369	to be tested	AH-287
+AH-295	CGGAGAGA	GTGTGYCAGCMGCCGCGGTAA	3	H	10	AH 295	skin	Isthmohyla debilis	Fortuna_Qda. Aleman	wild	1250	tadpole		in stream pool	frozen dry swab	0.181722319	to be tested	AH-295
+AH-303	CAGCCCTA	GTGTGYCAGCMGCCGCGGTAA	3	H	11	AH 303	skin	Colosthetus panamensis	Altos de Campana	wild	700	 adult			frozen dry swab		to be tested	AH-303
+Montuoso-040	TCGTTGGG	GTGTGYCAGCMGCCGCGGTAA	3	H	12	Montuoso 040	skin	Smilisca sila	RF Montuoso ANAM Station	wild	570	 adult		river 	frozen dry swab		to be tested	Montuoso-040
+AH-222-gut	TAGGACGG	GTGTGYCAGCMGCCGCGGTAA	4	A	1	AH 222	gut	Sachatamia albomuculata	Fortuna_L_and_F	wild	1300	 adult	male	stream bank	frozen dry swab		to be tested	AH-222-gut
+AH-267-gut	AAGTCTTA	GTGTGYCAGCMGCCGCGGTAA	4	A	2	AH 267	gut	Espadarana prosoblepon	Rambala_Qda Gloria	wild	75	 adult	male		frozen dry swab		0	AH-267-gut
+E-001	TTGCACCG	GTGTGYCAGCMGCCGCGGTAA	4	A	3	E 001	wild egg clutch	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	eggs			frozen dry swab		to be tested	E-001
+AH-273-E	CTCCGAAC	GTGTGYCAGCMGCCGCGGTAA	4	A	4	AH 273 E	egg clutch in sterile bag	Espadarana prosoblepon	Rambala_Qda Gloria		75	eggs			frozen dry swab			AH-273-E
+DON-Avar-071	TCTGGCTA	GTGTGYCAGCMGCCGCGGTAA	4	A	5	DON Avar 071	skin	Atelopus varius	Gamboa captive	captive		 adult	male		frozen swab in glycerol	2.173805081		DON-Avar-071
+DON-Avar-072	AGTAGTTT	GTGTGYCAGCMGCCGCGGTAA	4	A	6	DON Avar 072	skin	Atelopus varius	Gamboa captive	captive		 adult	male		frozen swab in glycerol	2.244424219		DON-Avar-072
+P7-T8-Sbufo	CAGATCCC	GTGTGYCAGCMGCCGCGGTAA	4	A	7	P7-T8 Sbufo	skin	Strabomantis bufoniformis	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	0.54963063		P7-T8-Sbufo
+Ovic-046	GATAGCAC	GTGTGYCAGCMGCCGCGGTAA	4	A	8	Ovic 046	skin	Oophaga vicentei	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	5.007976353		Ovic-046
+DON-Avar-069	GTAATTGT	GTGTGYCAGCMGCCGCGGTAA	4	A	9	DON Avar 069	skin	Atelopus varius	Gamboa captive	captive		 adult	male		frozen swab in glycerol	2.140465331		DON-Avar-069
+F1AV03-180115-2	TGCTACAG	GTGTGYCAGCMGCCGCGGTAA	4	A	10	F1AV03 180115-2	skin	Atelopus varius	Gamboa captive	prerelease		adult		captive	frozen dry swab			F1AV03-180115-2
+Mesocosm-3	AGGTGAGT	GTGTGYCAGCMGCCGCGGTAA	4	A	11	Mesocosm 3	skin	Atelopus varius	Gamboa captive	79 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-3
+Mesocosm-13	AACGATCA	GTGTGYCAGCMGCCGCGGTAA	4	A	12	Mesocosm 13	skin	Atelopus varius	Gamboa captive	28 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-13
+AH-230-gut	GTTTGGCC	GTGTGYCAGCMGCCGCGGTAA	4	B	1	AH 230	gut	Bolitoglossa minutula	Mount Totumas	wild	1900	 adult		on leaf	frozen dry swab		0	AH-230-gut
+AH-270-gut	GTCCTACA	GTGTGYCAGCMGCCGCGGTAA	4	B	2	AH 270	gut	Espadarana prosoblepon	Rambala_Qda Gloria	wild	75	 adult	male		frozen dry swab		0	AH-270-gut
+E-002	ATTTACAA	GTGTGYCAGCMGCCGCGGTAA	4	B	3	E 002	wild egg clutch	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	eggs			frozen dry swab		to be tested	E-002
+P7-T13	CCACTGCC	GTGTGYCAGCMGCCGCGGTAA	4	B	4	P7-T13	skin	Strabomantis bufoniformis	Gamboa captive	captive		 adult	female	captive	frozen swab in glycerol	0.262278269		P7-T13
+Agem-055	ATAGTTAG	GTGTGYCAGCMGCCGCGGTAA	4	B	5	Agem 055	skin	Andinobates geminiea	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	0.1757839		Agem-055
+Agem-023	GACCCGTT	GTGTGYCAGCMGCCGCGGTAA	4	B	6	Agem 023	skin	Andinobates geminiea	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	2.592932847		Agem-023
+Agly-028	TGACTGCG	GTGTGYCAGCMGCCGCGGTAA	4	B	7	Agly 028	skin	Atelopus glyphus	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	0.801998589		Agly-028
+P7-T21-Cpunc	ACGTTAAT	GTGTGYCAGCMGCCGCGGTAA	4	B	8	P7-T21 Cpunc	skin	Craugastor aff. punctariolus	Gamboa captive	captive		 adult	female	captive	frozen swab in glycerol	-0.232715045		P7-T21-Cpunc
+RMA-Alim-002	TCTAACGA	GTGTGYCAGCMGCCGCGGTAA	4	B	9	RMA Alim 002	skin	Atelopus limosus	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	2.051523908		RMA-Alim-002
+F1AV03-180115-3	GATCCCAC	GTGTGYCAGCMGCCGCGGTAA	4	B	10	F1AV03 180115-3	skin	Atelopus varius	Gamboa captive	prerelease		adult		captive	frozen dry swab			F1AV03-180115-3
+Mesocosm-4	CCGCCAGC	GTGTGYCAGCMGCCGCGGTAA	4	B	11	Mesocosm 4	skin	Atelopus varius	Gamboa captive	28 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-4
+Mesocosm-14	TCATCTTG	GTGTGYCAGCMGCCGCGGTAA	4	B	12	Mesocosm 14	skin	Atelopus varius	Gamboa captive	79 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-14
+AH-233-gut	TATATAGT	GTGTGYCAGCMGCCGCGGTAA	4	C	1	AH 233 	gut	Bolitoglossa nigrescens	Mount Totumas	wild	1900	subadult		on trunk	frozen dry swab		0	AH-233-gut
+AH-276-gut	ACTGTTTA	GTGTGYCAGCMGCCGCGGTAA	4	C	2	AH 276	gut	Teratohyla spinosa	Rambala_Qda Gloria	wild	75	 adult	male		frozen dry swab		0	AH-276-gut
+E-002-2	GTCACGGA	GTGTGYCAGCMGCCGCGGTAA	4	C	3	E 002-2	wild egg clutch	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	eggs			frozen dry swab		to be tested	E-002-2
+Agly-001	GAATATAC	GTGTGYCAGCMGCCGCGGTAA	4	C	4	Agly 001	skin	Atelopus glyphus	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	1.099472826		Agly-001
+EVA-007	GAATCTGA	GTGTGYCAGCMGCCGCGGTAA	4	C	5	EVA 007	skin	Craugastor evanesco	Gamboa captive	captive		 adult	male		frozen swab in glycerol	-1.530079167		EVA-007
+P7-34-Sbufo	ATTGCCTT	GTGTGYCAGCMGCCGCGGTAA	4	C	6	P7-34 Sbufo	skin	Strabomantis bufoniformis	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	0.400649246		P7-34-Sbufo
+EVA-005	GAGCCCAA	GTGTGYCAGCMGCCGCGGTAA	4	C	7	EVA 005	skin	Craugastor evanesco	Gamboa captive	captive		 adult	male		frozen swab in glycerol	-0.22080337		EVA-005
+RMA-Alim-006	CCATGTGG	GTGTGYCAGCMGCCGCGGTAA	4	C	8	RMA Alim 006	skin	Atelopus limosus	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	1.997151876		RMA-Alim-006
+P2-T26-1-5	CGTTCCTT	GTGTGYCAGCMGCCGCGGTAA	4	C	9	P2-T26 1_5	skin	Atelopus varius	Gamboa captive	prerelease		 adult		captive	frozen dry swab			P2-T26-1-5
+F1AV03-180115-4	CGCTAGGA	GTGTGYCAGCMGCCGCGGTAA	4	C	10	F1AV03 180115-4	skin	Atelopus varius	Gamboa captive	prerelease		adult		captive	frozen dry swab			F1AV03-180115-4
+Mesocosm-5	AGCGGTAG	GTGTGYCAGCMGCCGCGGTAA	4	C	11	Mesocosm 5	skin	Atelopus varius	Gamboa captive	79 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-5
+DON-Avar-043	GTCAGTAT	GTGTGYCAGCMGCCGCGGTAA	4	C	12	DON Avar 043	skin	Atelopus varius	Gamboa captive	captive		 adult	male		frozen dry swab			DON-Avar-043
+AH-234-gut	CATAAGGG	GTGTGYCAGCMGCCGCGGTAA	4	D	1	AH 234	gut	Bolitoglossa nigrescens	Mount Totumas	wild	1900	subadult		on trunk	frozen dry swab		0	AH-234-gut
+AH-278-gut	CAGGCCAC	GTGTGYCAGCMGCCGCGGTAA	4	D	2	AH 278	gut	Espadarana prosoblepon	Fortuna_Shadow Falls	wild	1400	 adult	male		frozen dry swab		to be tested	AH-278-gut
+S-001	ACAGTTGT	GTGTGYCAGCMGCCGCGGTAA	4	D	3	S 001	wild egg clutch substrate	leaf	Fortuna_L_and_F	wild	1300	egg substrate			frozen dry swab		to be tested	S-001
+EVA-003	ACCAGAAA	GTGTGYCAGCMGCCGCGGTAA	4	D	4	EVA 003	skin	Craugastor evanesco	Gamboa captive	captive		 adult	male		frozen swab in glycerol	-0.075127905		EVA-003
+P7-T17-Sbufo-021	CTCATCAT	GTGTGYCAGCMGCCGCGGTAA	4	D	5	P7-T17 Sbufo 021	skin	Strabomantis bufoniformis	Gamboa captive	captive		 adult	female	captive	frozen swab in glycerol	0.590415322		P7-T17-Sbufo-021
+RMA-Alim-090	TTAGGATT	GTGTGYCAGCMGCCGCGGTAA	4	D	6	RMA Alim 090	skin	Atelopus limosus	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	1.984822928		RMA-Alim-090
+Agly-019	CAACGAAC	GTGTGYCAGCMGCCGCGGTAA	4	D	7	Agly 019	skin	Atelopus glyphus	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	1.38764656		Agly-019
+Agem-041	ACACGTTT	GTGTGYCAGCMGCCGCGGTAA	4	D	8	Agem 041	skin	Andinobates geminiea	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	8.228532381		Agem-041
+P2-T26-2-5	CGTCGCAG	GTGTGYCAGCMGCCGCGGTAA	4	D	9	P2-T26 2_5	skin	Atelopus varius	Gamboa captive	prerelease		 adult		captive	frozen dry swab			P2-T26-2-5
+F1AV03-180115-5	CTACTTAC	GTGTGYCAGCMGCCGCGGTAA	4	D	10	F1AV03 180115-5	skin	Atelopus varius	Gamboa captive	prerelease		adult		captive	frozen dry swab			F1AV03-180115-5
+Mesocosm-7	CGCACGTA	GTGTGYCAGCMGCCGCGGTAA	4	D	11	Mesocosm 7	skin	Atelopus varius	Gamboa captive	28 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-7
+DON-Avar-074	GTCCTCGC	GTGTGYCAGCMGCCGCGGTAA	4	D	12	DON Avar 074	skin	Atelopus varius	Gamboa captive	captive		 adult	male		frozen dry swab			DON-Avar-074
+AH-239-gut	GTGCAACC	GTGTGYCAGCMGCCGCGGTAA	4	E	1	AH 239	gut	Diasporus hylaeformis	Mount Totumas	wild	1900	adult	male	on leaf	frozen dry swab		0	AH-239-gut
+AH-280-gut	ACCCAAGC	GTGTGYCAGCMGCCGCGGTAA	4	E	2	AH 280	gut	Espadarana prosoblepon	Fortuna_Shadow Falls	wild	1400	 adult	male		frozen dry swab		to be tested	AH-280-gut
+S-001-2	ACTGGCAA	GTGTGYCAGCMGCCGCGGTAA	4	E	3	S 001-2	wild egg clutch substrate	leaf	Fortuna_L_and_F	wild	1300	egg substrate			frozen dry swab		to be tested	S-001-2
+Agly-007	AACACCAT	GTGTGYCAGCMGCCGCGGTAA	4	E	4	Agly 007	skin	Atelopus glyphus	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	1.815617349		Agly-007
+CSA-Acer-014	TTATCCAG	GTGTGYCAGCMGCCGCGGTAA	4	E	5	CSA Acer 014	skin	Atelopus certus	Gamboa captive	captive		 adult	female		frozen swab in glycerol	1.225379808		CSA-Acer-014
+Ovic-045	GTTTATCT	GTGTGYCAGCMGCCGCGGTAA	4	E	6	Ovic 045	skin	Oophaga vicentei	Gamboa captive	captive		 adult	female	captive	frozen swab in glycerol	4.314128486		Ovic-045
+CSA-Acer-070	GTTCGCCG	GTGTGYCAGCMGCCGCGGTAA	4	E	7	CSA Acer 070	skin	Atelopus certus	Gamboa captive	captive		 adult	female		frozen swab in glycerol	1.476998455		CSA-Acer-070
+Ovic-026	AGACTATT	GTGTGYCAGCMGCCGCGGTAA	4	E	8	Ovic 026	skin	Oophaga vicentei	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	-2.76374288		Ovic-026
+P2-T26-3-5	AGCGATTC	GTGTGYCAGCMGCCGCGGTAA	4	E	9	P2-T26 3_5	skin	Atelopus varius	Gamboa captive	prerelease		 adult		captive	frozen dry swab			P2-T26-3-5
+F1AV03-180115-6	ACCACCGT	GTGTGYCAGCMGCCGCGGTAA	4	E	10	F1AV03 180115-6	skin	Atelopus varius	Gamboa captive	prerelease		adult		captive	frozen dry swab			F1AV03-180115-6
+Mesocosm-8	AGGAAGTA	GTGTGYCAGCMGCCGCGGTAA	4	E	11	Mesocosm 8	skin	Atelopus varius	Gamboa captive	79 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-8
+DON-Avar-075	CGTTCGCT	GTGTGYCAGCMGCCGCGGTAA	4	E	12	DON Avar 075	skin	Atelopus varius	Gamboa captive	captive		 adult	male		frozen dry swab			DON-Avar-075
+AH-242-gut	CTCACCTA	GTGTGYCAGCMGCCGCGGTAA	4	F	1	AH 242	gut	Diasporus hylaeformis	Mount Totumas	wild	1900	 adult	male	on leaf	frozen dry swab		0	AH-242-gut
+AH-281-gut	AGATGCAA	GTGTGYCAGCMGCCGCGGTAA	4	F	2	AH 281	gut	Espadarana prosoblepon	Fortuna_Shadow Falls	wild	1400	 adult	male		frozen dry swab		to be tested	AH-281-gut
+S-002-2	GCATTCGG	GTGTGYCAGCMGCCGCGGTAA	4	F	3	S 002-2	wild egg clutch substrate	moss	Fortuna_L_and_F	wild	1300	egg substrate			frozen dry swab		to be tested	S-002-2
+CSA-Acer-034	TCTACATA	GTGTGYCAGCMGCCGCGGTAA	4	F	4	CSA Acer 034	skin	Atelopus certus	Gamboa captive	captive		 adult	male		frozen swab in glycerol	0.469919358		CSA-Acer-034
+P7-T13-Sbufo-020	GAGTCTTG	GTGTGYCAGCMGCCGCGGTAA	4	F	5	P7-T13 Sbufo 020	skin	Strabomantis bufoniformis	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	0.536568426		P7-T13-Sbufo-020
+DON-Avar-070	CAGTCTAG	GTGTGYCAGCMGCCGCGGTAA	4	F	6	DON Avar 070	skin	Atelopus varius	Gamboa captive	captive		 adult	male		frozen swab in glycerol	1.0226965		DON-Avar-070
+CSA-Acer-058	GTTCGAGT	GTGTGYCAGCMGCCGCGGTAA	4	F	7	CSA Acer 058	skin	Atelopus certus	Gamboa captive	captive		 adult	male		frozen swab in glycerol	1.682695533		CSA-Acer-058
+Ovic-033	AGTCCGAG	GTGTGYCAGCMGCCGCGGTAA	4	F	8	Ovic 033	skin	Oophaga vicentei	Gamboa captive	captive		 adult	female	captive	frozen swab in glycerol	5.05398564		Ovic-033
+P2-T26-4-5	CGTGAGGA	GTGTGYCAGCMGCCGCGGTAA	4	F	9	P2-T26 4_5	skin	Atelopus varius	Gamboa captive	prerelease		 adult		captive	frozen dry swab			P2-T26-4-5
+neg4	CGGTTGGC	GTGTGYCAGCMGCCGCGGTAA	4	F	10	neg4	negative control											neg4
+Mesocosm-9	CGATTCCT	GTGTGYCAGCMGCCGCGGTAA	4	F	11	Mesocosm 9	skin	Atelopus varius	Gamboa captive	79 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-9
+DON-Avar-077	TGCCTGCT	GTGTGYCAGCMGCCGCGGTAA	4	F	12	DON Avar 077	skin	Atelopus varius	Gamboa captive	captive		 adult	female		frozen dry swab			DON-Avar-077
+AH-243-gut	TACTGTAC	GTGTGYCAGCMGCCGCGGTAA	4	G	1	AH 243	gut	Diasporus hylaeformis	Mount Totumas	wild	1900	 adult	male	on leaf	frozen dry swab		0	AH-243-gut
+AH-282-gut	TCTCGCAC	GTGTGYCAGCMGCCGCGGTAA	4	G	2	AH 282	gut	Espadarana prosoblepon	Fortuna_Shadow Falls	wild	1400	 adult	male		frozen dry swab		to be tested	AH-282-gut
+S-002	ACCAGTGA	GTGTGYCAGCMGCCGCGGTAA	4	G	3	S 002	wild egg clutch substrate	moss	Fortuna_L_and_F	wild	1300	egg substrate			frozen dry swab		to be tested	S-002
+CBR-Alim-39	TGGCGCAC	GTGTGYCAGCMGCCGCGGTAA	4	G	4	CBR Alim 39	skin	Atelopus limosus	Gamboa captive	captive		 adult	male		frozen swab in glycerol	1.727733578		CBR-Alim-39
+RMA-Alim-062	CATTTACA	GTGTGYCAGCMGCCGCGGTAA	4	G	5	RMA Alim 062	skin	Atelopus limosus	Gamboa captive	captive		 adult	male	captive	frozen swab in glycerol	1.484928024		RMA-Alim-062
+Agem-048	GTGGGACT	GTGTGYCAGCMGCCGCGGTAA	4	G	6	Agem 048	skin	Andinobates geminiea	Gamboa captive	captive		 adult	female	captive	frozen swab in glycerol	2.965746313		Agem-048
+CSA-Acer-068	CGGCCTAA	GTGTGYCAGCMGCCGCGGTAA	4	G	7	CSA Acer 068	skin	Atelopus certus	Gamboa captive	captive		 adult	male		frozen swab in glycerol	1.659056677		CSA-Acer-068
+Agem-025	GCTGAGCC	GTGTGYCAGCMGCCGCGGTAA	4	G	8	Agem 025	skin	Andinobates geminiea	Gamboa captive	captive		 adult	female	captive	frozen swab in glycerol	4.58105853		Agem-025
+P2-T26-5-5	AGAGACGC	GTGTGYCAGCMGCCGCGGTAA	4	G	9	P2-T26 5_5	skin	Atelopus varius	Gamboa captive	prerelease		 adult		captive	frozen dry swab			P2-T26-5-5
+Mesocosm-1	CCACCGGG	GTGTGYCAGCMGCCGCGGTAA	4	G	10	Mesocosm 1	skin	Atelopus varius	Gamboa captive	28 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-1
+Mesocosm-10	AATCCGGT	GTGTGYCAGCMGCCGCGGTAA	4	G	11	Mesocosm 10	skin	Atelopus varius	Gamboa captive	28 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-10
+DON-Avar-074-replicate	TCTTACCC	GTGTGYCAGCMGCCGCGGTAA	4	G	12	DON Avar 074	skin	Atelopus varius	Gamboa captive	captive		 adult	male		frozen dry swab			DON-Avar-074-replicate
+AH-260-gut	CTAGAGCT	GTGTGYCAGCMGCCGCGGTAA	4	H	1	AH 260	gut	Espadarana prosoblepon	Totumas_Qda. Catalina	wild	1530	 adult	male	on leaf	frozen dry swab		0	AH-260-gut
+E-001-2	GGTCTTAG	GTGTGYCAGCMGCCGCGGTAA	4	H	2	E 001-2	wild egg clutch	Espadarana prosoblepon	Fortuna_L_and_F	wild	1300	eggs			frozen dry swab		to be tested	E-001-2
+AH-237-E	GCCTACTC	GTGTGYCAGCMGCCGCGGTAA	4	H	3	AH 237 E	egg clutch in sterile bag	Espadarana prosoblepon	Mount Totumas	wild	1900	eggs		sterile bag	frozen dry swab			AH-237-E
+DON-Avar-068	ACTGCCCG	GTGTGYCAGCMGCCGCGGTAA	4	H	4	DON Avar 068	skin	Atelopus varius	Gamboa captive	captive		 adult	male		frozen swab in glycerol	2.518963272		DON-Avar-068
+EVA-006	TTCTTAAC	GTGTGYCAGCMGCCGCGGTAA	4	H	5	EVA 006	skin	Craugastor evanesco	Gamboa captive	captive		subadult	female		frozen swab in glycerol	-0.415310874		EVA-006
+Ovic-052	CTCCCGAG	GTGTGYCAGCMGCCGCGGTAA	4	H	6	Ovic 052	skin	Oophaga vicentei	Gamboa captive	captive		 adult	female	captive	frozen swab in glycerol	3.461114532		Ovic-052
+EVA-004	TAGACTTC	GTGTGYCAGCMGCCGCGGTAA	4	H	7	EVA 004	skin	Craugastor evanesco	Gamboa captive	captive		subadult 			frozen swab in glycerol	-0.367162583		EVA-004
+CPI-Agly-029	ACTTAGAC	GTGTGYCAGCMGCCGCGGTAA	4	H	8	CPI Agly 029	skin	Atelopus glyphus	Gamboa captive	captive		 adult	male		frozen swab in glycerol	1.184315155		CPI-Agly-029
+F1AV03-180115-1	GGACCTGG	GTGTGYCAGCMGCCGCGGTAA	4	H	9	F1AV03 180115-1	skin	Atelopus varius	Gamboa captive	prerelease		adult		captive	frozen dry swab			F1AV03-180115-1
+Mesocosm-2	TATGTGCC	GTGTGYCAGCMGCCGCGGTAA	4	H	10	Mesocosm 2	skin	Atelopus varius	Gamboa captive	79 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-2
+Mesocosm-12	ATACCGTC	GTGTGYCAGCMGCCGCGGTAA	4	H	11	Mesocosm 12	skin	Atelopus varius	Gamboa captive	79 days after placement		adult		mesocosm	frozen dry swab			Mesocosm-12
+Control	TGTGCTTG	GTGTGYCAGCMGCCGCGGTAA	4	H	12	Control	environmental control								frozen swab in glycerol			Control
+AH-210-replicate	ATGTTAGG	GTGTGYCAGCMGCCGCGGTAA	5	A	1	AH 210	skin	Bolitoglossa minutula	Mount Totumas	wild	1900	 adult		plant near ground	frozen dry swab	-1.658424711	0	AH-210-replicate
+C-16-1-3	GCTAGTTA	GTGTGYCAGCMGCCGCGGTAA	5	A	2	C 16-1-3	environmental control								frozen swab in glycerol			C-16-1-3
+C-16-1-15	TCATCCGT	GTGTGYCAGCMGCCGCGGTAA	5	A	3	C 16-1-15	environmental control								frozen swab in glycerol			C-16-1-15
+C-16-1-17	ATTTGGCT	GTGTGYCAGCMGCCGCGGTAA	5	A	4	C 16-1-17	environmental control								frozen swab in glycerol			C-16-1-17
+C-16-16	GATCCGGC	GTGTGYCAGCMGCCGCGGTAA	5	A	5	C 16-16	environmental control								frozen swab in glycerol			C-16-16
+C-16-1-18	GTTAAGCT	GTGTGYCAGCMGCCGCGGTAA	5	A	6	C 16-1-18	environmental control								frozen swab in glycerol			C-16-1-18
+C-16-1-2	CCTATTGC	GTGTGYCAGCMGCCGCGGTAA	5	A	7	C 16-1-2	environmental control								frozen swab in glycerol			C-16-1-2
+neg5	CAATAGAA	GTGTGYCAGCMGCCGCGGTAA	5	A	8	neg5	negative control											neg5
+Mock	AATAAGCA	GTGTGYCAGCMGCCGCGGTAA	5	G	8	Mock	mock microbiome											Mock
+neg6	AACGCTTC	GTGTGYCAGCMGCCGCGGTAA	5	H	12	neg6	negative control											neg6
+Andreas163	CAGATCCC	GTGTGYCAGCMGCCGCGGTAA	4	A	7	AH 163	skin	"Lithobates ""pipiens"" sp. E"		wild		juvenile		road puddle	frozen dry swab		486279.9168	Andreas163
+Andreas164	TGACTGCG	GTGTGYCAGCMGCCGCGGTAA	4	B	7	AH 164	skin	"Lithobates ""pipiens"" sp. E"		wild		adult		In tall grass inside pond	frozen dry swab		61.90616751	Andreas164
+Andreas165	GAGCCCAA	GTGTGYCAGCMGCCGCGGTAA	4	C	7	AH 165	skin	"Lithobates ""pipiens"" sp. E"		wild		adult		In tall grass inside pond	frozen dry swab		6936.344394	Andreas165
+Andreas166	CAACGAAC	GTGTGYCAGCMGCCGCGGTAA	4	D	7	AH 166	skin	"Lithobates ""pipiens"" sp. E"		wild		adult		In tall grass inside pond	frozen dry swab		1095.95365	Andreas166
+Andreas167	GTTCGCCG	GTGTGYCAGCMGCCGCGGTAA	4	E	7	AH 167	skin	"Lithobates ""pipiens"" sp. E"		wild		juvenile		road puddle	frozen dry swab		37066304.12	Andreas167
+Andreas168	GTTCGAGT	GTGTGYCAGCMGCCGCGGTAA	4	F	7	AH 168	skin	"Lithobates ""pipiens"" sp. E"		wild		juvenile		road puddle	frozen dry swab		635.2499455	Andreas168
+Andreas169	CGGCCTAA	GTGTGYCAGCMGCCGCGGTAA	4	G	7	AH 169	skin	"Lithobates ""pipiens"" sp. E"		wild		adult		In tall grass inside pond	frozen dry swab		394.3646052	Andreas169
+Andreas170	TAGACTTC	GTGTGYCAGCMGCCGCGGTAA	4	H	7	AH 170	skin	"Lithobates ""pipiens"" sp. E"		wild		adult		In tall grass inside pond	frozen dry swab		147.0120844	Andreas170
+Andreas171	ACACGTTT	GTGTGYCAGCMGCCGCGGTAA	4	D	8	AH 171	skin	"Lithobates ""pipiens"" sp. E"		wild		adult		In tall grass inside pond	frozen dry swab		310598.7067	Andreas171
+Andreas172	AGACTATT	GTGTGYCAGCMGCCGCGGTAA	4	E	8	AH 172	skin	"Lithobates ""pipiens"" sp. E"		wild		adult		In tall grass inside pond	frozen dry swab		232.1411673	Andreas172
+Andreas173	AGTCCGAG	GTGTGYCAGCMGCCGCGGTAA	4	F	8	AH 173	skin	"Lithobates ""pipiens"" sp. E"		wild		adult		In tall grass inside pond	frozen dry swab		609.1086195	Andreas173
+Andreas174	GCTGAGCC	GTGTGYCAGCMGCCGCGGTAA	4	G	8	AH 174	skin	"Lithobates ""pipiens"" sp. E"		wild		adult		In tall grass inside pond	frozen dry swab		299322.6457	Andreas174
+Andreas178	ACTTAGAC	GTGTGYCAGCMGCCGCGGTAA	4	H	8	AH 178	skin	"Lithobates ""pipiens"" sp. E"		wild		adult		In tall grass inside pond	frozen dry swab		1182.16434	Andreas178
