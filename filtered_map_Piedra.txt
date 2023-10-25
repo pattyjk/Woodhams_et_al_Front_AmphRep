@@ -1,0 +1,90 @@
+SampleID	BarcodeSequence	LinkerPrimerSequence	Plate	Column	Row	FrogID	Type	Species	Site	Origin	Elevation	Life stage	Sex	Microhabitat	Storage method	Mucosome Bd inhibition per cm2 skin	Bd GE	Description
+AH.179	ACTGTGAC	GTGTGYCAGCMGCCGCGGTAA	2	A	9	AH 179	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	adult		on rock in stream	frozen dry swab	0.115186574	to be tested	AH-179
+AH.188	TCCGGCGG	GTGTGYCAGCMGCCGCGGTAA	2	B	10	AH 188	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	juv		water pipe trail	frozen dry swab	1.011399769	to be tested	AH-188
+AH.189	ACATGATA	GTGTGYCAGCMGCCGCGGTAA	2	C	10	AH 189	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	juv		water pipe trail	frozen dry swab	1.335659259	to be tested	AH-189
+AH.190	TAAGGCAT	GTGTGYCAGCMGCCGCGGTAA	2	D	10	AH 190	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	 adult	female	water pipe trail	frozen dry swab	0.520301618	to be tested	AH-190
+AH.191	CACACAAA	GTGTGYCAGCMGCCGCGGTAA	2	E	10	AH 191	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	 adult	female	water pipe trail	frozen dry swab	-0.144593539	to be tested	AH-191
+AH.162	TAGGAACT	GTGTGYCAGCMGCCGCGGTAA	2	F	8	AH 162	skin	Craugastor crassidigitus	Alto de Piedra	wild	900	adult		water pipe trail_hopping on ground	frozen dry swab	0.552196566	to be tested	AH-162
+AH.050	GGTTCATG	GTGTGYCAGCMGCCGCGGTAA	1	G	7	AH 050	skin	Craugastor crassidigitus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf on rock	frozen swab in glycerol		0	AH-050
+AH.027	GACTCTGC	GTGTGYCAGCMGCCGCGGTAA	1	H	4	AH 027	skin	Craugastor crassidigitus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol		0	AH-027
+AH.051	TGAGTATG	GTGTGYCAGCMGCCGCGGTAA	1	H	7	AH 051	skin	Craugastor crassidigitus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	subadult		forest, on leaf stemp	frozen swab in glycerol		0	AH-051
+AH.066	GAACCAGT	GTGTGYCAGCMGCCGCGGTAA	1	H	9	AH 066	skin	Craugastor crassidigitus	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	630	 adult	female	rock	frozen swab in glycerol		0	AH-066
+AH.187	CTCTGAGG	GTGTGYCAGCMGCCGCGGTAA	2	A	10	AH 187	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	 adult	male	leaf near stream	frozen dry swab	1.149582416	to be tested	AH-187
+AH.182	CTACTCCA	GTGTGYCAGCMGCCGCGGTAA	2	D	9	AH 182	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	adult		leaf near stream	frozen dry swab	-1.241854533	to be tested	AH-182
+AH.183	TCAAGTCC	GTGTGYCAGCMGCCGCGGTAA	2	E	9	AH 183	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	adult		leaf near stream	frozen dry swab	0.489661026	to be tested	AH-183
+AH.184	GTCCGTCC	GTGTGYCAGCMGCCGCGGTAA	2	F	9	AH 184	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	adult		leaf near stream	frozen dry swab	1.23747723	to be tested	AH-184
+AH.185	CTAGCGTG	GTGTGYCAGCMGCCGCGGTAA	2	G	9	AH 185	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	adult		leaf near stream	frozen dry swab	0.995536309	to be tested	AH-185
+AH.186	GTTCTAAG	GTGTGYCAGCMGCCGCGGTAA	2	H	9	AH 186	skin	Espadarana prosoblepon	Alto de Piedra	wild	900	adult		leaf near stream	frozen dry swab	1.3652505	to be tested	AH-186
+AH.044	TACAATAT	GTGTGYCAGCMGCCGCGGTAA	1	A	7	AH 044	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-0.614304476	0	AH-044
+AH.029	CGTCCGTA	GTGTGYCAGCMGCCGCGGTAA	1	B	5	AH 029	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	1.922752794	0	AH-029
+AH.037	ACGTGAGG	GTGTGYCAGCMGCCGCGGTAA	1	B	6	AH 037	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-0.94574271	0	AH-037
+AH.030	CGTTTGGA	GTGTGYCAGCMGCCGCGGTAA	1	C	5	AH 030	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	0.250326127	0	AH-030
+AH.040	ACATACTG	GTGTGYCAGCMGCCGCGGTAA	1	E	6	AH 040	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-1.103921097	0	AH-040
+AH.033	GCGATCAC	GTGTGYCAGCMGCCGCGGTAA	1	F	5	AH 033	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-2.19288138	0	AH-033
+AH.041	CAAACGCA	GTGTGYCAGCMGCCGCGGTAA	1	F	6	AH 041	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-0.78849027	0	AH-041
+AH.034	TGCACAGT	GTGTGYCAGCMGCCGCGGTAA	1	G	5	AH 034	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-1.16401744	0	AH-034
+AH.035	GTCATGCT	GTGTGYCAGCMGCCGCGGTAA	1	H	5	AH 035	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf on rock	frozen swab in glycerol	-1.605247251	0	AH-035
+AH.043	TACCGAAG	GTGTGYCAGCMGCCGCGGTAA	1	H	6	AH 043	skin	Espadarana prosoblepon	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol	-0.368239135	0	AH-043
+AH.106	TATCATAT	GTGTGYCAGCMGCCGCGGTAA	2	A	3	AH 106	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		stream	frozen swab in glycerol	0.814376667	0	AH-106
+AH.113.2	CTATATTA	GTGTGYCAGCMGCCGCGGTAA	2	A	4	AH 113-2	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	tadpole		creek	frozen swab in glycerol		1683	AH-113-2
+AH.107	CCTTGACC	GTGTGYCAGCMGCCGCGGTAA	2	B	3	AH 107	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	0.116179438	0	AH-107
+AH.113.3	CAAACTGC	GTGTGYCAGCMGCCGCGGTAA	2	B	4	AH 113-3	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	tadpole		creek	frozen swab in glycerol		29552	AH-113-3
+AH.180	CCTACCAT	GTGTGYCAGCMGCCGCGGTAA	2	B	9	AH 180	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult	male	under rock in stream	frozen dry swab	-1.155160879	to be tested	AH-180
+AH.108	AGCTCTAG	GTGTGYCAGCMGCCGCGGTAA	2	C	3	AH 108	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	0.418337179	0	AH-108
+AH.114	CTGACACG	GTGTGYCAGCMGCCGCGGTAA	2	C	4	AH 114	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		in forest on leaf	frozen swab in glycerol	0.438625201	0	AH-114
+AH.181	CATTTCGC	GTGTGYCAGCMGCCGCGGTAA	2	C	9	AH 181	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		leaf near stream	frozen dry swab	0.591904826	to be tested	AH-181
+AH.109	AATGTTCA	GTGTGYCAGCMGCCGCGGTAA	2	D	3	AH 109	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	1.345860404	0	AH-109
+AH.115	AGCAGTGC	GTGTGYCAGCMGCCGCGGTAA	2	D	4	AH 115	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		stream	frozen swab in glycerol	0.773963304	0	AH-115
+AH.110	CAATCATA	GTGTGYCAGCMGCCGCGGTAA	2	E	3	AH 110	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	0.486032324	0	AH-110
+AH.116	GTTGGACG	GTGTGYCAGCMGCCGCGGTAA	2	E	4	AH 116	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		stream	frozen swab in glycerol	1.552701293	0	AH-116
+AH.111	CCGATAAA	GTGTGYCAGCMGCCGCGGTAA	2	F	3	AH 111	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	0.819623407	385.2	AH-111
+AH.117	CAGGAACC	GTGTGYCAGCMGCCGCGGTAA	2	F	4	AH 117	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		stream	frozen swab in glycerol	1.246964559	0	AH-117
+AH.112	GCGTGCCC	GTGTGYCAGCMGCCGCGGTAA	2	G	3	AH 112	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	 adult		creek	frozen swab in glycerol	1.38014494	0	AH-112
+AH.113.1	TAAACCTG	GTGTGYCAGCMGCCGCGGTAA	2	H	3	AH 113-1	skin	Hyloscirtus colymba	Alto de Piedra	wild	900	tadpole		creek	frozen swab in glycerol		841	AH-113-1
+AH.045	GGTTGCCC	GTGTGYCAGCMGCCGCGGTAA	1	B	7	AH 045	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream under rock	frozen swab in glycerol	-0.294717344	0	AH-045
+AH.046	TGATATCG	GTGTGYCAGCMGCCGCGGTAA	1	C	7	AH 046	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream on rock	frozen swab in glycerol	0.559986467	0	AH-046
+AH.054	CGGTGACC	GTGTGYCAGCMGCCGCGGTAA	1	C	8	AH 054	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	female	on leaf, 3m over ground	frozen swab in glycerol	1.103948491	0	AH-054
+AH.047	ATACATGC	GTGTGYCAGCMGCCGCGGTAA	1	D	7	AH 047	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	female	stream on rock	frozen swab in glycerol	0.857995701	0	AH-047
+AH.054.2	CTTAGTGC	GTGTGYCAGCMGCCGCGGTAA	1	D	8	AH 054-2	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	female	on leaf, 3m over ground	frozen swab in glycerol	1.112972485	0	AH-054-2
+AH.048	GTTGATAC	GTGTGYCAGCMGCCGCGGTAA	1	E	7	AH 048	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream under rock	frozen swab in glycerol	-0.317283872	0	AH-048
+AH.049	GAAGAGGG	GTGTGYCAGCMGCCGCGGTAA	1	F	7	AH 049	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream under rock	frozen swab in glycerol	3.315059209	0	AH-049
+AH.060	GACTCAAC	GTGTGYCAGCMGCCGCGGTAA	1	A	9	AH 060	skin	Hyloscirtus colymba	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	stream under rock	frozen swab in glycerol	2.298310395	0	AH-060
+Andreas163	CAGATCCC	GTGTGYCAGCMGCCGCGGTAA	4	A	7	AH 163	skin	Lithobates "pipiens" sp. E		wild		juvenile		road puddle	frozen dry swab		486279.9168	Andreas163
+Andreas164	TGACTGCG	GTGTGYCAGCMGCCGCGGTAA	4	B	7	AH 164	skin	Lithobates "pipiens" sp. E		wild		adult		In tall grass inside pond	frozen dry swab		61.90616751	Andreas164
+Andreas165	GAGCCCAA	GTGTGYCAGCMGCCGCGGTAA	4	C	7	AH 165	skin	Lithobates "pipiens" sp. E		wild		adult		In tall grass inside pond	frozen dry swab		6936.344394	Andreas165
+Andreas166	CAACGAAC	GTGTGYCAGCMGCCGCGGTAA	4	D	7	AH 166	skin	Lithobates "pipiens" sp. E		wild		adult		In tall grass inside pond	frozen dry swab		1095.95365	Andreas166
+Andreas167	GTTCGCCG	GTGTGYCAGCMGCCGCGGTAA	4	E	7	AH 167	skin	Lithobates "pipiens" sp. E		wild		juvenile		road puddle	frozen dry swab		37066304.12	Andreas167
+Andreas168	GTTCGAGT	GTGTGYCAGCMGCCGCGGTAA	4	F	7	AH 168	skin	Lithobates "pipiens" sp. E		wild		juvenile		road puddle	frozen dry swab		635.2499455	Andreas168
+Andreas169	CGGCCTAA	GTGTGYCAGCMGCCGCGGTAA	4	G	7	AH 169	skin	Lithobates "pipiens" sp. E		wild		adult		In tall grass inside pond	frozen dry swab		394.3646052	Andreas169
+Andreas170	TAGACTTC	GTGTGYCAGCMGCCGCGGTAA	4	H	7	AH 170	skin	Lithobates "pipiens" sp. E		wild		adult		In tall grass inside pond	frozen dry swab		147.0120844	Andreas170
+Andreas171	ACACGTTT	GTGTGYCAGCMGCCGCGGTAA	4	D	8	AH 171	skin	Lithobates "pipiens" sp. E		wild		adult		In tall grass inside pond	frozen dry swab		310598.7067	Andreas171
+Andreas172	AGACTATT	GTGTGYCAGCMGCCGCGGTAA	4	E	8	AH 172	skin	Lithobates "pipiens" sp. E		wild		adult		In tall grass inside pond	frozen dry swab		232.1411673	Andreas172
+Andreas173	AGTCCGAG	GTGTGYCAGCMGCCGCGGTAA	4	F	8	AH 173	skin	Lithobates "pipiens" sp. E		wild		adult		In tall grass inside pond	frozen dry swab		609.1086195	Andreas173
+Andreas174	GCTGAGCC	GTGTGYCAGCMGCCGCGGTAA	4	G	8	AH 174	skin	Lithobates "pipiens" sp. E		wild		adult		In tall grass inside pond	frozen dry swab		299322.6457	Andreas174
+Andreas178	ACTTAGAC	GTGTGYCAGCMGCCGCGGTAA	4	H	8	AH 178	skin	Lithobates "pipiens" sp. E		wild		adult		In tall grass inside pond	frozen dry swab		1182.16434	Andreas178
+AH.157	GGAGAACG	GTGTGYCAGCMGCCGCGGTAA	2	B	8	AH 157	skin	Lithobates warszewitschii	Alto de Piedra	wild	900	adult		leaf on river bank	frozen dry swab	0.791339618	to be tested	AH-157
+AH.052	AATTTAGG	GTGTGYCAGCMGCCGCGGTAA	1	A	8	AH 052	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream under rock	frozen swab in glycerol	0.717963277	0	AH-052
+AH.053	CATATAGC	GTGTGYCAGCMGCCGCGGTAA	1	B	8	AH 053	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult	male	stream on rock	frozen swab in glycerol	0.745426049	0	AH-053
+AH.055	GTCAACGC	GTGTGYCAGCMGCCGCGGTAA	1	E	8	AH 055	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	subadult	female	stone in dry riverbed	frozen swab in glycerol		0	AH-055
+AH.067	GCCTCTAC	GTGTGYCAGCMGCCGCGGTAA	1	A	10	AH 067	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	630	 adult	male	rock	frozen swab in glycerol	1.258429657	0	AH-067
+AH.068	CAAGTGAA	GTGTGYCAGCMGCCGCGGTAA	1	B	10	AH 068	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	630	 adult	male	rock in stream	frozen swab in glycerol		0	AH-068
+AH.057	TAACAATA	GTGTGYCAGCMGCCGCGGTAA	1	G	8	AH 057	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	mossy rock	frozen swab in glycerol	-0.084911366	0	AH-057
+AH.065	CTTATTAA	GTGTGYCAGCMGCCGCGGTAA	1	G	9	AH 065	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	630	 adult	male	stream bank	frozen swab in glycerol	-0.004298179	0	AH-065
+AH.058	AATGGTTC	GTGTGYCAGCMGCCGCGGTAA	1	H	8	AH 058	skin	Lithobates warszewitschii	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	leaf	frozen swab in glycerol	0.795747924	0	AH-058
+AH.195	CATGTCTT	GTGTGYCAGCMGCCGCGGTAA	2	A	11	AH 195	skin	Pristimantis cerasinus	Alto de Piedra	wild	900	juv		water pipe trail	frozen dry swab		to be tested	AH-195
+AH.196	TAATCCAT	GTGTGYCAGCMGCCGCGGTAA	2	B	11	AH 196	skin	Pristimantis cerasinus	Alto de Piedra	wild	900	juv		water pipe trail	frozen dry swab		to be tested	AH-196
+AH.197	GCAACGAA	GTGTGYCAGCMGCCGCGGTAA	2	C	11	AH 197	skin	Pristimantis cerasinus	Alto de Piedra	wild	900	juv		water pipe trail	frozen dry swab		to be tested	AH-197
+AH.192	CGAGGCGA	GTGTGYCAGCMGCCGCGGTAA	2	F	10	AH 192	skin	Pristimantis cerasinus	Alto de Piedra	wild	900	 adult		stream	frozen dry swab	1.928080716	to be tested	AH-192
+AH.038	AAGAACTC	GTGTGYCAGCMGCCGCGGTAA	1	C	6	AH 038	skin	Pristimantis museosus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	subadult		leaf	frozen swab in glycerol		0	AH-038
+AH.031	ACGCTTAA	GTGTGYCAGCMGCCGCGGTAA	1	D	5	AH 031	skin	Pristimantis museosus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	subadult		leaf	frozen swab in glycerol		0	AH-031
+AH.039	TACGGATT	GTGTGYCAGCMGCCGCGGTAA	1	D	6	AH 039	skin	Pristimantis museosus	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	subadult		leaf	frozen swab in glycerol		0	AH-039
+AH.160	CTAATCAG	GTGTGYCAGCMGCCGCGGTAA	2	D	8	AH 160	skin	Pristimantis pardalis	Alto de Piedra	wild	900	adult		water pipe trail_leaf appr. 1m above ground	frozen dry swab	0.644442539	to be tested	AH-160
+AH.161	TTAATGGA	GTGTGYCAGCMGCCGCGGTAA	2	E	8	AH 161	skin	Pristimantis pardalis	Alto de Piedra	wild	900	adult		water pipe trail_leaf appr. 1.5m above ground	frozen dry swab	0.943024957	to be tested	AH-161
+AH.194	ATGACTAA	GTGTGYCAGCMGCCGCGGTAA	2	H	10	AH 194	skin	Pristimantis pardalis	Alto de Piedra	wild	900	 adult		water pipe trail	frozen dry swab	1.388794585	to be tested	AH-194
+AH.158	AATTAATA	GTGTGYCAGCMGCCGCGGTAA	2	C	8	AH 158	skin	Sachatamia albomaculata	Alto de Piedra	wild	900	adult		leaf appr. 2.5m above stream	frozen dry swab	4.624323488	to be tested	AH-158
+AH.036	TATGGTAC	GTGTGYCAGCMGCCGCGGTAA	1	A	6	AH 036	skin	Sachatamia albomaculata	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf on rock	frozen swab in glycerol		0	AH-036
+AH.042	TTACTGTG	GTGTGYCAGCMGCCGCGGTAA	1	G	6	AH 042	skin	Sachatamia albomaculata	Alto de Piedra_Feeder stream of I Brazo de Mulaba	wild	940	 adult		leaf	frozen swab in glycerol		0	AH-042
+AH.062	AATGCGCG	GTGTGYCAGCMGCCGCGGTAA	1	C	9	AH 062	skin	Smilisca sila	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	rock in stream	frozen swab in glycerol		0	AH-062
+AH.063	AATCTTGC	GTGTGYCAGCMGCCGCGGTAA	1	D	9	AH 063	skin	Smilisca sila	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	in grass on riverbank	frozen swab in glycerol		0	AH-063
+AH.064	TGAGACCC	GTGTGYCAGCMGCCGCGGTAA	1	E	9	AH 064	skin	Smilisca sila	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	rock in stream	frozen swab in glycerol		0	AH-064
+AH.064.2	TTACACAA	GTGTGYCAGCMGCCGCGGTAA	1	F	9	AH 064-2	skin	Smilisca sila	Alto de Piedra_Feeder stream of III Brazo de Mulaba	wild	770	 adult	male	rock in stream	frozen swab in glycerol		0	AH-064-2
