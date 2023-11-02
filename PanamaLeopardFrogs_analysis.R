@@ -1,6 +1,7 @@
 #load packages
 library(vegan)
 library(ggplot2)
+library(ggpubr)
 library(plyr)
 library(dplyr)
 library(reshape2)
@@ -47,15 +48,49 @@ ko.coords<-merge(ko.coords, meta, by.x='SampleID', by.y='SampleID')
 #12.6
 
 #plot PCoA
-library(ggplot2)
-ggplot(ko.coords, aes(MDS1, MDS2, colour=Species))+
-  geom_point(size=2)+
+ggplot(ko.coords, aes(MDS1, MDS2, colour=Species, size=Log_Bd))+
+  geom_point()+
   scale_color_manual(values = c('#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000'))+
   theme_bw()+
   guides(alpha = "none")+
   xlab("PC1- 32.2%")+
   ylab("PC2- 12.6%")
-  
+
+#plot axis vs Bd inhibition
+ggplot(ko.coords, aes(MDS1, Mucosome.Bd.inhibition.per.cm2.skin))+
+  geom_point()+
+  theme_bw()+
+  stat_cor(method = "spearman", cor.coef.name="rho")+
+  geom_smooth(method = 'lm')+
+  ylab("Mucosome Bd inhibition (cm^2)")
+#nada
+
+ggplot(ko.coords, aes(MDS2, Mucosome.Bd.inhibition.per.cm2.skin))+
+  geom_point()+
+  theme_bw()+
+  stat_cor(method = "spearman", cor.coef.name="rho")+
+  geom_smooth(method = 'lm')+
+  ylab("Mucosome Bd inhibition (cm^2)")
+#nada
+
+#plot axis1 against log Bd load
+ggplot(ko.coords, aes(MDS1,  Log_Bd))+
+  geom_point()+
+  theme_bw()+
+ # stat_cor(method = "spearman", cor.coef.name="rho")+
+  geom_smooth(method = 'lm')+
+  ylab("Log Bd load")+
+  xlab("Axis 1 values")
+#Significant negative relationship, rho=-0.55, p=6.7e-7
+
+ggplot(ko.coords, aes(MDS2, Log_Bd))+
+  geom_point()+
+  theme_bw()+
+  stat_cor(method = "spearman", cor.coef.name="rho")+
+  geom_smooth(method = 'lm')+
+  ylab("Bd load")+
+  xlab("Axis 2 values")
+#significant rho=-0.26, p=0.015
   
 #calculate non-parametric permanova
 #calculate distance
@@ -82,7 +117,7 @@ adonis2(s16.dis3[,-90] ~ Species, data=s16.dis3, permutations = 10000)
 
 
 ###########################################################################
-#############################Beta diversity################################
+#############################Alpha diversity###############################
 ###########################################################################
 
 #load in asv table
@@ -111,3 +146,55 @@ ggplot(larv.alph, aes(Species, Richness, fill=Species))+
   coord_flip()+
   ylab("ASV Richness")+
   scale_fill_manual(values = c('#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000'))
+
+###########################################################################
+#############################anti-Bd function##############################
+###########################################################################
+#read in results from vsearch clustering against AmphiBac database
+inhibitory<-read.delim("PanamaLeopardFrogs/leopard_frog_out.txt", header=F)
+#ASVs are V1 in df
+
+#load in meta data
+meta<-read.delim('PanamaLeopardFrogs/filtered_map_Piedra.txt', header=T)
+
+#load in asv table
+asv.tbl<-read.delim('PanamaLeopardFrogs/asv_table.txt', row.names = 1, header=T)
+
+#subset asv table to remove non-Alo de Piedra samples (that's all that's in the filtered map)
+asv.tbl<-asv.tbl[,names(asv.tbl) %in% meta$SampleID]
+
+#subset ASV table to only include ASVs that amtch database
+inhib_tb<-asv.tbl[row.names(asv.tbl) %in% inhibitory$V1,]
+
+#calculate percentage of ASVs that are inhibitory
+100*(48/12105)
+#0.39
+
+#calculate colSums for total/inhibitory communities
+total_sum<-as.data.frame(colSums(asv.tbl))
+inhib_sum<-as.data.frame(colSums(inhib_tb))
+
+#bind data together
+inhib_tb2<-cbind(total_sum, inhib_sum)
+
+#calculate percent inhibitory
+inhib_tb2$per_inhib<-inhib_tb2$`colSums(inhib_tb)`/inhib_tb2$`colSums(asv.tbl)`
+
+#add column for SampleID and merge metadata
+inhib_tb2$SampleID<-row.names(inhib_tb2)
+inhib_tb2<-merge(inhib_tb2, meta, by='SampleID')
+
+#plot per species
+library(ggplot2)
+ggplot(inhib_tb2, aes(Species, per_inhib, fill=Species))+
+  geom_jitter()+
+  geom_boxplot()+
+  theme_bw()+
+  xlab("")+
+  coord_flip()+
+  ylab("Percent Inhibitory towards Bd")+
+  scale_fill_manual(values = c('#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000'))
+
+#calculate stats
+pairwise.t.test(inhib_tb2$per_inhib, inhib_tb2$Species, p.adjust.method = 'hochberg')
+#most comparisions are ns, except HyCo vs SmSi, LiPi_E vs. SmSi, LiWa cs SmSi
