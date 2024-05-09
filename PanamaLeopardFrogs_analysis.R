@@ -14,9 +14,9 @@ library(RColorBrewer)
 asv.tbl<-read.delim('PanamaLeopardFrogs/asv_table.txt', row.names = 1, header=T)
 
 #load in meta data
-meta<-read.delim('PanamaLeopardFrogs/filtered_map_Piedra.txt', header=T)
+meta<-read.delim('PanamaLeopardFrogs/filtered_map_Piedra2.txt', header=T)
 
-#subset asv table to remove non-Alo de Piedra samples (that's all that's in the filtered map)
+#subset asv table to remove non-Alto de Piedra samples (that's all that's in the filtered map)
 asv.tbl<-asv.tbl[,names(asv.tbl) %in% meta$SampleID]
 
 #get column sums for rarefaction
@@ -24,6 +24,7 @@ min(colSums(asv.tbl))
 #1322
 
 #rarefy table
+set.seed(515)
 asv.rare<-rrarefy(t(asv.tbl), sample=1322)
 
 #calculate beta diversity
@@ -56,28 +57,11 @@ ggplot(ko.coords, aes(MDS1, MDS2, colour=Species, size=Log_Bd))+
   xlab("PC1- 32.2%")+
   ylab("PC2- 12.6%")
 
-#plot axis vs Bd inhibition
-ggplot(ko.coords, aes(MDS1, Mucosome.Bd.inhibition.per.cm2.skin))+
-  geom_point()+
-  theme_bw()+
-  stat_cor(method = "spearman", cor.coef.name="rho")+
-  geom_smooth(method = 'lm')+
-  ylab("Mucosome Bd inhibition (cm^2)")
-#nada
-
-ggplot(ko.coords, aes(MDS2, Mucosome.Bd.inhibition.per.cm2.skin))+
-  geom_point()+
-  theme_bw()+
-  stat_cor(method = "spearman", cor.coef.name="rho")+
-  geom_smooth(method = 'lm')+
-  ylab("Mucosome Bd inhibition (cm^2)")
-#nada
-
 #plot axis1 against log Bd load
 ggplot(ko.coords, aes(MDS1,  Log_Bd))+
   geom_point()+
   theme_bw()+
- # stat_cor(method = "spearman", cor.coef.name="rho")+
+ stat_cor(method = "spearman", cor.coef.name="rho")+
   geom_smooth(method = 'lm')+
   ylab("Log Bd load")+
   xlab("Axis 1 values")
@@ -127,7 +111,7 @@ asv.tbl<-read.delim('PanamaLeopardFrogs/asv_table.txt', row.names = 1, header=T)
 asv.tbl<-asv.tbl[,names(asv.tbl) %in% meta$SampleID]
 
 #load in meta data
-meta<-read.delim('PanamaLeopardFrogs/filtered_map_Piedra.txt', header=T)
+meta<-read.delim('PanamaLeopardFrogs/filtered_map_Piedra2.txt', header=T)
 
 #CALCULATE RICHNESS & add metadata & statistics
 larv.alph<-as.data.frame(specnumber(t(asv.tbl)))
@@ -144,8 +128,14 @@ ggplot(larv.alph, aes(Species, Richness, fill=Species))+
   theme_bw()+
   xlab("")+
   coord_flip()+
-  ylab("ASV Richness")+
+  ylab("sOTU Richness")+
   scale_fill_manual(values = c('#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000'))
+
+bartlett.test(larv.alph$`specnumber(t(asv.tbl))`, larv.alph$Species)
+#Bartlett's K-squared = 17.196, df = 9, p-value = 0.04573
+
+pairwise.t.test(larv.alph$`specnumber(t(asv.tbl))`, larv.alph$Species, p.adjust.method = 'hochberg')
+#no sig differences
 
 ###########################################################################
 #############################anti-Bd function##############################
@@ -155,7 +145,7 @@ inhibitory<-read.delim("PanamaLeopardFrogs/leopard_frog_out.txt", header=F)
 #ASVs are V1 in df
 
 #load in meta data
-meta<-read.delim('PanamaLeopardFrogs/filtered_map_Piedra.txt', header=T)
+meta<-read.delim('PanamaLeopardFrogs/filtered_map_Piedra2.txt', header=T)
 
 #load in asv table
 asv.tbl<-read.delim('PanamaLeopardFrogs/asv_table.txt', row.names = 1, header=T)
@@ -197,4 +187,4 @@ ggplot(inhib_tb2, aes(Species, per_inhib, fill=Species))+
 
 #calculate stats
 pairwise.t.test(inhib_tb2$per_inhib, inhib_tb2$Species, p.adjust.method = 'hochberg')
-#most comparisions are ns, except HyCo vs SmSi, LiPi_E vs. SmSi, LiWa cs SmSi
+#most comparisions are ns, except HyCo vs SmSi, Ngäbe-Buglé leopard frog vs. SmSi, LiWa cs SmSi
