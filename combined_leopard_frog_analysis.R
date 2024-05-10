@@ -323,3 +323,25 @@ core_otus<-merge(core_otus, inhibitory_all, all.x = T, all.y=F, by.x='OTU', by.y
 #write to file
 write.table(core_otus, 'PanamaLeopardFrogs/core_lep_frog_otus.txt', quote=F, sep='\t', row.names=F)
 
+#######################################################
+#######################Taxa plot#######################
+#######################################################
+taxa_data<-read.delim('PanamaLeopardFrogs/new axa_plot_data.txt')
+library(ggplot2)
+library(reshape2)
+
+#reshape data for plotting
+taxa_m<-melt(taxa_data)
+names(taxa_m)<-c('Species', 'Order', 'value')
+
+#read in the best pallette
+pal<-c("#771155", "#CC99BB", "#114477", "#4477AA", "#117777", "#44AAAA", "#77CCCC", "#117744", "#44AA77", "#88CCAA", "#777711", "#AAAA44", "#DDDD77", "#774411", "#AA7744", "#DDAA77", "#771122", "#AA4455", "#DD7788","#41AB5D", "#252525", "#525252", "#737373", "#969696")
+
+#plot data
+ggplot(taxa_m, aes(Species, value, fill=Order))+
+  geom_bar(stat='identity')+
+  scale_fill_manual(values=pal)+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))+
+  ylab("Relative Abundance")+
+  xlab("")

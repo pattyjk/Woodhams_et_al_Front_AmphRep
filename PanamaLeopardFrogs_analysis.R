@@ -141,7 +141,7 @@ pairwise.t.test(larv.alph$`specnumber(t(asv.tbl))`, larv.alph$Species, p.adjust.
 #############################anti-Bd function##############################
 ###########################################################################
 #read in results from vsearch clustering against AmphiBac database
-inhibitory<-read.delim("PanamaLeopardFrogs/leopard_frog_out.txt", header=F)
+inhibitory<-read.delim("PanamaLeopardFrogs/leopard_frog_inhib_otus.txt", header=F)
 #ASVs are V1 in df
 
 #load in meta data
@@ -155,10 +155,6 @@ asv.tbl<-asv.tbl[,names(asv.tbl) %in% meta$SampleID]
 
 #subset ASV table to only include ASVs that amtch database
 inhib_tb<-asv.tbl[row.names(asv.tbl) %in% inhibitory$V1,]
-
-#calculate percentage of ASVs that are inhibitory
-100*(48/12105)
-#0.39
 
 #calculate colSums for total/inhibitory communities
 total_sum<-as.data.frame(colSums(asv.tbl))
