@@ -10,7 +10,7 @@ library(RColorBrewer)
 #############################Beta diversity################################
 ###########################################################################
 
-#load in asv table
+#load in OTU table
 asv.tbl<-read.delim('PanamaLeopardFrogs/asv_table.txt', row.names = 1, header=T)
 
 #load in meta data
@@ -145,7 +145,7 @@ inhibitory<-read.delim("PanamaLeopardFrogs/leopard_frog_inhib_otus.txt", header=
 #ASVs are V1 in df
 
 #load in meta data
-meta<-read.delim('PanamaLeopardFrogs/filtered_map_Piedra2.txt', header=T)
+meta<-read.delim('PanamaLeopardFrogs/piedra_map3.txt', header=T)
 
 #load in asv table
 asv.tbl<-read.delim('PanamaLeopardFrogs/asv_table.txt', row.names = 1, header=T)
@@ -156,6 +156,21 @@ asv.tbl<-asv.tbl[,names(asv.tbl) %in% meta$SampleID]
 #subset ASV table to only include ASVs that amtch database
 inhib_tb<-asv.tbl[row.names(asv.tbl) %in% inhibitory$V1,]
 
+#CALCULATE RICHNESS & add metadata & statistics
+larv.alph2<-as.data.frame(specnumber(t(inhib_tb)))
+larv.alph2$SampleID<-row.names(larv.alph2)
+larv.alph2<-merge(larv.alph2, meta, by='SampleID')
+larv.alph2$Richness<-as.numeric(larv.alph2$`specnumber(t(inhib_tb))`)
+
+#plot it
+ggplot(larv.alph2, aes(Mucosome.Bd.inhibition.per.cm2.skin, Richness))+
+  geom_point()+
+  theme_bw()+
+  ylab("Antifungal Richness")+
+  ylab("Mucosome function (per cm2 skin)")
+
+cor.test(larv.alph2$Richness, larv.alph2$Mucosome.Bd.inhibition.per.cm2.skin)
+
 #calculate colSums for total/inhibitory communities
 total_sum<-as.data.frame(colSums(asv.tbl))
 inhib_sum<-as.data.frame(colSums(inhib_tb))
@@ -165,6 +180,9 @@ inhib_tb2<-cbind(total_sum, inhib_sum)
 
 #calculate percent inhibitory
 inhib_tb2$per_inhib<-inhib_tb2$`colSums(inhib_tb)`/inhib_tb2$`colSums(asv.tbl)`
+
+#change to out of 100%
+inhib_tb2$per_inhib<-inhib_tb2$per_inhib*100
 
 #add column for SampleID and merge metadata
 inhib_tb2$SampleID<-row.names(inhib_tb2)
@@ -181,6 +199,75 @@ ggplot(inhib_tb2, aes(Species, per_inhib, fill=Species))+
   ylab("Percent Inhibitory towards Bd")+
   scale_fill_manual(values = c('#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000'))
 
+ggplot(inhib_tb2, aes(Mucosome.Bd.inhibition.per.cm2.skin, per_inhib))+
+  geom_point()+
+  theme_bw()+
+  ylab("Percent inhibitory towards Bd")+
+  ylab("Mucosome function (per cm2 skin)")
+
+cor.test(inhib_tb2$per_inhib, inhib_tb2$Mucosome.Bd.inhibition.per.cm2.skin)
+
 #calculate stats
 pairwise.t.test(inhib_tb2$per_inhib, inhib_tb2$Species, p.adjust.method = 'hochberg')
 #most comparisions are ns, except HyCo vs SmSi, Ngäbe-Buglé leopard frog vs. SmSi, LiWa cs SmSi
+
+
+#################Look at taxa that respond to Bd load
+#load in OTU table
+asv.tbl<-read.delim('PanamaLeopardFrogs/asv_table.txt', row.names = 1, header=T)
+
+#load in meta data
+meta<-read.delim('PanamaLeopardFrogs/filtered_map_Piedra2.txt', header=T)
+
+#subset asv table to remove non-Alto de Piedra samples (that's all that's in the filtered map)
+asv.tbl<-asv.tbl[,names(asv.tbl) %in% meta$SampleID]
+
+#get column sums for rarefaction
+min(colSums(asv.tbl))
+#1322
+
+#rarefy table
+set.seed(515)
+asv.rare<-rrarefy(t(asv.tbl), sample=1322)
+
+#reshape OTU table
+asv_m<-melt(asv.rare)
+
+#add meta data
+asv_m<-merge(asv_m, meta, by.x='Var1', by.y='SampleID', all.y = F, all.x=T)
+
+#calculate correlations
+library(dplyr)
+
+calculate_spearman <- function(asv_m) {
+  cor_test <- cor.test(asv_m$Bd.GE, asv_m$value, method = "spearman")
+  return(data.frame(correlation = cor_test$estimate, p_value = cor_test$p.value))
+}
+
+results <- asv_m %>%
+  group_by(Var2) %>%
+  do(calculate_spearman(.))
+
+#correct p-value with Hochberg
+results$p_corr<-p.adjust(results$p_value, method = 'hochberg')
+
+#how many
+length(which(results$p_value<0.05))
+#148
+length(which(results$p_corr<0.05))
+#14
+
+#create table that only has significant ones
+sig_otus<-results[which(results$p_corr<0.05),]
+
+#add taxonomy
+tax<-read.delim("PanamaLeopardFrogs/all_leopard_frog_taxonomy.tsv")
+sig_otus<-merge(sig_otus, tax, by.x='Var2', by.y='Feature.ID')
+
+#inhibitory towards Bd?
+inhib_otus<-read.delim('PanamaLeopardFrogs/leopard_frog_inhib_otus.txt', header=F)
+sig_otus<-merge(sig_otus, inhib_otus, by.x='Var2', by.y='V1', all.x=T, all.y=F)
+
+#write to table
+write.table(sig_otus, 'PanamaLeopardFrogs/otus_bd_load.txt', sep='\t', quote=F, row.names = F)
+
