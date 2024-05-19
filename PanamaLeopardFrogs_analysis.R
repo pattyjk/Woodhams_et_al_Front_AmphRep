@@ -157,18 +157,29 @@ asv.tbl<-asv.tbl[,names(asv.tbl) %in% meta$SampleID]
 inhib_tb<-asv.tbl[row.names(asv.tbl) %in% inhibitory$V1,]
 
 #CALCULATE RICHNESS & add metadata & statistics
+library(vegan)
 larv.alph2<-as.data.frame(specnumber(t(inhib_tb)))
 larv.alph2$SampleID<-row.names(larv.alph2)
 larv.alph2<-merge(larv.alph2, meta, by='SampleID')
 larv.alph2$Richness<-as.numeric(larv.alph2$`specnumber(t(inhib_tb))`)
 
 #plot it
+library(ggplot2)
 ggplot(larv.alph2, aes(Mucosome.Bd.inhibition.per.cm2.skin, Richness))+
   geom_point()+
   theme_bw()+
   ylab("Antifungal Richness")+
   ylab("Mucosome function (per cm2 skin)")
 
+#extract onlt Pan lep frog
+pan.lep<-larv.alph2[which(larv.alph2$Species == "Ngäbe-Buglé leopard frog"),]
+ggplot(pan.lep, aes(Mucosome.Bd.inhibition.per.cm2.skin, Richness))+
+  geom_point()+
+  theme_bw()+
+  ylab("Antifungal Richness")+
+  ylab("Mucosome function (per cm2 skin)")
+
+cor.test(pan.lep$Richness, pan.lep$Mucosome.Bd.inhibition.per.cm2.skin)
 cor.test(larv.alph2$Richness, larv.alph2$Mucosome.Bd.inhibition.per.cm2.skin)
 
 #calculate colSums for total/inhibitory communities
