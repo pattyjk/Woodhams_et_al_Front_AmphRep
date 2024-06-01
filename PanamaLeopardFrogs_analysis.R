@@ -83,19 +83,20 @@ s16.dis2<-s16.dis
 s16.dis2$SampleID<-row.names(s16.dis2)
 
 #select only columns of interest for the metadata
-meta2<-meta[,c(1,9)]
+meta2<-meta[,c(1,9,17)]
 
 #add metadata 
 s16.dis2<-merge(s16.dis2, meta2, by='SampleID')
   
 #remove sample id column
-s16.dis3<-s16.dis2[,2:91]
+s16.dis3<-s16.dis2[,2:92]
   
 #calculate adonis
-adonis2(s16.dis3[,-90] ~ Species, data=s16.dis3, permutations = 10000)
+adonis2(s16.dis3[,-c(90,91)] ~ Species + Bd.GE, data=s16.dis3, permutations = 10000)
 
 #          Df SumOfSqs      R2      F    Pr(>F)    
 #Species   9  0.19297 0.38741 5.5511 9.999e-05 ***
+#Bd.GE     1  0.0211 0.1419 1.5353    0.007437 
 #Residual 79  0.30515 0.61259                     
 #Total    88  0.49812 1.00000         
 

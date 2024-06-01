@@ -72,6 +72,45 @@ s16.dis<-as.data.frame(as.matrix(vegdist(t(all_lep_frog[,-1]), method='bray')))
 s16.dis2<-s16.dis
 s16.dis2$SampleID<-row.names(s16.dis2)
 
+###Calculate pairwise comparisons
+#load and reshape data
+meta<-read.delim('PanamaLeopardFrogs/simplified_map_all_samples.txt', header=T)
+all_lep_frog<-read.delim('PanamaLeopardFrogs/all_leopard_frog_otu_table.txt', header=T, row.names = 1)
+s16.dis<-as.data.frame(as.matrix(vegdist(t(all_lep_frog), method = 'jaccard')))
+
+library(reshape2)
+s16.dis3<-s16.dis
+s16.dis3$variable<-row.names(s16.dis3)
+s16.dis_m<-melt(s16.dis3)
+names(s16.dis_m)<-c('Sample1', 'Sample2', 'distance')
+meta_sub<-meta[,c(1,6)]
+
+#add metadata
+s16.dis_m<-merge(s16.dis_m, meta_sub, by.x='Sample1', 'SampleID')
+s16.dis_m<-merge(s16.dis_m, meta_sub, by.x='Sample2', 'SampleID')
+names(s16.dis_m)<-c('Sample1', 'Sample2', 'Distance', 'Species_2', 'Species_1')
+
+#add new column for comparisons
+s16.dis_m$Comparison<-paste(s16.dis_m$Species_2,s16.dis_m$Species_1, sep = ':')
+
+#remove comparisons without Pan lep frog
+library(stringr)
+lep_frog <- s16.dis_m %>% filter(str_detect(Comparison, 'Bug'))
+write.table(lep_frog, 'PanamaLeopardFrogs/pairwise_distance.txt', sep='\t', quote=F, row.names = F)
+lep_frog <-read.delim('PanamaLeopardFrogs/pairwise_distance.txt', header=T)
+
+#plot it
+ggplot(lep_frog, aes(Comparison, Distance))+
+  geom_boxplot()+
+  theme_bw()+
+  xlab("")+
+  ylab('Unweighted UniFrac Similarity')+
+  coord_flip()
+
+#bartlett.test(lep_frog$Distance, lep_frog$Comparison)
+pairwise.t.test(lep_frog$Distance, lep_frog$Comparison)
+
+
 #select only columns of interest for the metadata
 meta2<-meta[,c(1,5,6,7)]
 
@@ -320,8 +359,26 @@ inhibitory_all<-merge(inhibitory, inhibitory2, by='V1', all.x = T, all.y=T)
 #add info to core OTU table
 core_otus<-merge(core_otus, inhibitory_all, all.x = T, all.y=F, by.x='OTU', by.y='V1')
 
+#add abundance/counts for each sample
+library(dplyr)
+library(plyr)
+library(reshape2)
+
+asv2<-asv.tbl
+asv2$OTU<-row.names(asv2)
+asv_m<-melt(asv2)
+asv_m<-asv_m[asv_m$OTU %in% core_otus$OTU,]
+asv_m<-merge(asv_m, meta, by.x='variable', by.y='SampleID')
+asv_m$value<-as.numeric(asv_m$value)
+
+asv_sum<-ddply(asv_m, c('OTU', 'Species'), summarize, mean=mean(value), n=100*length(which((value>=1)))/length(value))
+asv_sum2<-dcast(asv_sum, formula = OTU ~ Species)
+
+#add to core OTU data
+core_otus2<-merge(core_otus, asv_sum2, by.y='OTU', by.x='OTU')
+
 #write to file
-write.table(core_otus, 'PanamaLeopardFrogs/core_lep_frog_otus.txt', quote=F, sep='\t', row.names=F)
+write.table(core_otus2, 'PanamaLeopardFrogs/core_lep_frog_otus.txt', quote=F, sep='\t', row.names=F)
 
 #######################################################
 #######################Taxa plot#######################
