@@ -200,6 +200,11 @@ inhib_tb2$per_inhib<-inhib_tb2$per_inhib*100
 inhib_tb2$SampleID<-row.names(inhib_tb2)
 inhib_tb2<-merge(inhib_tb2, meta, by='SampleID')
 
+#merge inhibi with richness
+inhib_tb2<-merge(inhib_tb2, larv.alph2, by='SampleID')
+
+
+
 #plot per species
 library(ggplot2)
 ggplot(inhib_tb2, aes(Species, per_inhib, fill=Species))+
